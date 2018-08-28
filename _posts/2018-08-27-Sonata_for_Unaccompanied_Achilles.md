@@ -6,7 +6,9 @@ title: Sonata for Unaccompanied Achilles
 
 ---
 
-One of my earlier pieces of writing, approx. March 2013
+One of my earlier pieces of writing, approx. March 2013. It was a lot of fun writing this, even if now I'd be more careful with the mathematical words used. Runner-up in the Dame Ivy Compton-Burnett Prize for Creative Writing (Pembroke College, Cambridge). 
+
+<br>
 
 *One evening in the home, a blackout drives the patients into a state of panic, sending the orderlies running after them. Achilles is in his room, remarkably calm. Just before the power cut, he had been gazing through his window at the stars over this warm, dusty corner of Italy, or Greece, or wherever he is, listening to one of Bach’s sonatas for unaccompanied violin. It’s a favourite of his, because it seems as though there ought to be some accompaniment to this lone voice that Bach left to be filled in by the listener’s imagination. Perhaps he never intended accompaniment, Achilles thought, since the piece works just fine on its own, or maybe the accompaniment is hidden within the piece. But that was just speculation. In the silence, Achilles notes that the room is as black with his eyes open or closed. After feeling his way to the telephone, like every other night of his stay here, he calls his friend whom he met in a previous home before he was transferred here.*
 
@@ -29,6 +31,9 @@ Achilles: Philosophical zombies, yes you are right, could still have a brain tha
 Achilles: Actually, as it happens, I did have something in mind! As you know, I am a keen studier of art, especially of M.C. Escher. Are you familiar with his work, ‘Print Gallery’?
 
 Achilles: Literally in front of you? Excellent! I’m sorry to hear you find it too perplexing. With some study, I believe you will come to appreciate it. You will see that it depicts a man in a print gallery, who is looking at a print of a seaside town, perhaps Maltese, to guess from the architecture, and the town contains a print gallery in which stands a man looking at a print of a town containing a print gallery in which…. You get the idea. Do you see the blank space in the centre of this spiral where Escher signed it?
+
+![Print Gallery](/images/escher_print_gallery.png)
+![Metamorphosis](/images/escher_metamorphosis.png)
 
 Achilles: I beg you to bear with me! It really is a true wonder when you look deeper. You were right, that point is the point around which the piece changes back into itself! Without this point, the work would have been impossible. Escher could have made that blank space as small as could be printed, but it can’t be non-existent! In the true Gödelian sense, the drawing has to be incomplete, because it is self-referential. And Escher knew it. And he forces another, more personal paradox upon us, since we too are looking at a print in which someone is looking at a print, in which there is someone looking at a print… He makes us think, for a second, that our universe is like the drawing. But I digress.  I wanted to ask you, do you think it would be possible that a conversation (a dialogue, say) could have a similar point?
 
