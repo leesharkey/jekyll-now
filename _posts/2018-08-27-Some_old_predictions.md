@@ -6,7 +6,7 @@ title: Some old predictions
 In the interest of having all my predictions linked on this site, here are some predictions made in the past on Facebook. Additionally, my metaculus profile is [here](https://www.metaculus.com/accounts/profile/104117/).
 
 <h2>Predictions made on 2016-11-30</h2>
-Link to full thread [here](https://www.facebook.com/lee.sharkey.54/posts/10154792683043035).
+[Link to full thread](https://www.facebook.com/lee.sharkey.54/posts/10154792683043035).
 * Trump re-election 2020 - 25% (soon after, this was revised to 40%)
 * Resolution of conflict in Syria before 2020 - 55%
 * Another country votes to leave the EU before 2025 - 65%
@@ -27,7 +27,9 @@ A: "I agree. I had in mind that the important institutions cease to function. Co
 
 
 <h2>Predictions for Brexit made on 2017-12-01</h2>
-Link to full thread [here](https://www.facebook.com/lee.sharkey.54/posts/10155970112198035).
+
+[Link to full thread](https://www.facebook.com/lee.sharkey.54/posts/10155970112198035).
+
 First, an ordered list of scenarios from “No Brexit” to “Hardest Brexit”:
 * Scenario 1: Brexit is stopped and the UK remains in the EU.
   - Probability: Wholly unlikely, for some reason.
