@@ -10,18 +10,17 @@ I'm studying the Neural Systems and Computation MSc at UZH and ETH Zürich. My b
 
 The name of the blog, Meta-wondering, is a nodd to Richard Feynman's well known poem.
 
-> ... \n
-> Out of the cradle \n
-> onto dry land
-> here it is
-> standing:
-> atoms with consciousness;
-> matter with curiosity.
-> 
+> ... 
+Out of the cradle 
+onto dry land
+here it is
+standing:
+atoms with consciousness;
+matter with curiosity.
 > Stands at the sea,
-> wonders at wondering: I
-> a universe of atoms
-> an atom in the Universe. 
+wonders at wondering: I
+a universe of atoms
+an atom in the Universe. 
 
 ### Contact me
 
