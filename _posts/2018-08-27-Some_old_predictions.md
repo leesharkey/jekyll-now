@@ -30,26 +30,26 @@ A: "I agree. I had in mind that the important institutions cease to function. Co
 Link to full thread [here](https://www.facebook.com/lee.sharkey.54/posts/10155970112198035).
 First, an ordered list of scenarios from “No Brexit” to “Hardest Brexit”:
 * Scenario 1: Brexit is stopped and the UK remains in the EU.
-- Probability: Wholly unlikely, for some reason.
+  - Probability: Wholly unlikely, for some reason.
 * Scenario 2: UK leaves the European Union but remains part of the customs union and single market.
-- Probability: Unlikely, since Theresa May has explicitly ruled this out. But it is still possible that the UK government makes a U-turn on this.
+  - Probability: Unlikely, since Theresa May has explicitly ruled this out. But it is still possible that the UK government makes a U-turn on this.
 * Scenario 3: The UK and EU carve out a unique new status for the UK, which looks something like the UK remaining in the customs union and single market, with the exception of the freedom of movement of workers.
-- Probability: Unlikely, since the EU sees this as a threat to its long-term integrity and would almost certainly not accept this. Incidentally, it’s so obvious that it’s rarely said, but it’s worth reminding that, as the largest trading bloc in the world, the EU has significantly a stronger hand than the UK in these negotiations and has little reason to accept anything that crosses its red lines.
+  - Probability: Unlikely, since the EU sees this as a threat to its long-term integrity and would almost certainly not accept this. Incidentally, it’s so obvious that it’s rarely said, but it’s worth reminding that, as the largest trading bloc in the world, the EU has significantly a stronger hand than the UK in these negotiations and has little reason to accept anything that crosses its red lines.
 * Scenario 4: Great Britain (and not Northern Ireland) leaves the customs union and single market, and Northern Ireland is given a special economic status in the UK that permits it functionally to remain part of the EU customs union and single market, and a border-like entity is lifted between the island of Ireland and Great Britain.
-- Probability: Quite unlikely, since the Conservatives need the support of the DUP to be a functional government, and the DUP have explicitly said they would never accept this, and you should believe them. If you think the DUP can somehow be persuaded by generous offerings or clever negotiation, win-win solutions with this ‘small concession’ on their part, you are wrong and I don’t think you know the DUP. If the government has no other option but to contravene the DUP, AND has enough cross-parliamentary support for the Brexit deal if/when the deal goes to parliamentary vote AND is willing to lose its ability to govern and thence call a general election that very well see the election of a Labour government under Corbyn, then this _might_ happen, but I don’t at all see the Conservative party choosing this over scenario 6.
+  - Probability: Quite unlikely, since the Conservatives need the support of the DUP to be a functional government, and the DUP have explicitly said they would never accept this, and you should believe them. If you think the DUP can somehow be persuaded by generous offerings or clever negotiation, win-win solutions with this ‘small concession’ on their part, you are wrong and I don’t think you know the DUP. If the government has no other option but to contravene the DUP, AND has enough cross-parliamentary support for the Brexit deal if/when the deal goes to parliamentary vote AND is willing to lose its ability to govern and thence call a general election that very well see the election of a Labour government under Corbyn, then this _might_ happen, but I don’t at all see the Conservative party choosing this over scenario 6.
 * Scenario 5: Great Britain and Northern Ireland AND Republic of Ireland leave the EU customs union and single market form a British Isles single market and customs union.
-- Probability: This is entirely untenable to Dublin or Brussels and will not happen.
+  - Probability: This is entirely untenable to Dublin or Brussels and will not happen.
 * Scenario 6: The UK leaves the EU customs union and single market and a hard border is erected on the Northern Irish border.
-- Probability: Unless one of the other outcomes occurs, this is the default outcome.
+  - Probability: Unless one of the other outcomes occurs, this is the default outcome.
 * Scenario ?.?: Some outcome that I haven’t discerned that is in between the scenarios above or something completely different.
 
 Maybe I've missed something, but to me it seems that in the space of possible solutions, the regions within every party’s respective stated red lines _do not intersect_. Either, one of the parties makes intolerable concessions, or the default scenario obtains.
 
 Predicted distribution:
-(60%) - Scenario 6: Hard Brexit with Northern Irish border
-(13%) – Scenario ?.?: Other
-(12%) - Scenario 2: UK leaves the European Union but remains part of the customs union and single market.
-(10%) – Scenario 4: Special economic status for NI and a new Irish/Great British border instated, the Conservatives transgress the DUP and incur their full, red-faced, no-surrendering wrath.
-(3%) – Scenario 3: Special status for UK permitting membership of the EU customs union and single market but without freedom of movement for workers.
-(1%) – Scenario 1: Brexit is stopped.
-(1%) – Scenario 5: ROI leaves with the UK to avoid a hard border.
+* (60%) - Scenario 6: Hard Brexit with Northern Irish border
+* (13%) – Scenario ?.?: Other
+* (12%) - Scenario 2: UK leaves the European Union but remains part of the customs union and single market.
+* (10%) – Scenario 4: Special economic status for NI and a new Irish/Great British border instated, the Conservatives transgress the DUP and incur their full, red-faced, no-surrendering wrath.
+* (3%) – Scenario 3: Special status for UK permitting membership of the EU customs union and single market but without freedom of movement for workers.
+* (1%) – Scenario 1: Brexit is stopped.
+* (1%) – Scenario 5: ROI leaves with the UK to avoid a hard border.
