@@ -6,10 +6,10 @@ layout: default
 {% assign postsByMonthAndYear =
     site.posts | group_by_exp:"post", "post.date | date: '%B %Y'" %}
 {% for monthyear in postsByMonthAndYear %}
-  <h1>{{ monthyear.name }}</h1>
+  <h2>{{ monthyear.name }}</h2>
     <ul>
       {% for post in monthyear.items %}
-        <li><h2><a href="{{ post.url }}">{{ post.title }}</a></h2>{{ post.excerpt }}</li>
+        <li><h5><a href="{{ post.url }}">{{ post.title }}</a></h5><small>{{ post.excerpt }}</small></li>
       {% endfor %}
     </ul>
 {% endfor %}
