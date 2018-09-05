@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test blog post
+title: Increasing Access to Pain Relief in Developing Countries - An EA Perspective
 ---
 
 Original Effective Altruism Forum post [link](http://effective-altruism.com/ea/16r/increasing_access_to_pain_relief_an_ea_perspective/).
