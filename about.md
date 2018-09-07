@@ -3,13 +3,14 @@ layout: page
 title: About
 permalink: /about/
 ---
-
+<style>
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+</style>
 
 <img class="center" src="/images/jpegleebw.jpg" alt="Lee">
 
