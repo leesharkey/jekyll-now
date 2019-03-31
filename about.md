@@ -10,18 +10,18 @@ I'm studying the Neural Systems and Computation MSc at UZH and ETH Zürich. My b
 
 <hr>
 <p align="center">
-> ...  
-> Out of the cradle  
-> onto dry land  
-> here it is  
-> standing:  
-> atoms with consciousness; 
-> matter with curiosity.  
-> 
-> Stands at the sea,  
-> wonders at wondering: I  
-> a universe of atoms  
-> an atom in the Universe.  
+...  
+Out of the cradle<br/>  
+onto dry land<br/> 
+here it is<br/>   
+standing:<br/>   
+atoms with consciousness;<br/>  
+matter with curiosity.<br/>   
+
+Stands at the sea,<br/>   
+wonders at wondering: I<br/>   
+a universe of atoms<br/>   
+an atom in the Universe.<br/>   
 </p>
 ### Contact me
 
