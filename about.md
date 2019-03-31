@@ -3,8 +3,8 @@ layout: page
 title: ""
 permalink: /about/
 ---
-I'm studying the Neural Systems and Computation MSc at UZH and ETH Zürich. My background is in neurobiology and medicine (University of Cambridge) and data analytics (University of Glasgow). Formerly, I was a public health consultant with WHO. I'm interested in cognitive neuroscience from an AI perspective and vice versa, and I'm a proponent of Effective Altruism.
-
+<div style="text-align: justify"> I'm studying the Neural Systems and Computation MSc at UZH and ETH Zürich. My background is in neurobiology and medicine (University of Cambridge) and data analytics (University of Glasgow). Formerly, I was a public health consultant with WHO. I'm interested in cognitive neuroscience from an AI perspective and vice versa, and I'm a proponent of Effective Altruism.
+</div>
 <hr>
 <p align="center">
 ...<br/>   
