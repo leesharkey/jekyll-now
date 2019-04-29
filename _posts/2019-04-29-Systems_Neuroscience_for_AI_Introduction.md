@@ -6,7 +6,8 @@ title: Systems Neuroscience for AI&#58; An Introductory Guide to the Literature
 
 ---
 
-* [Introduction]()
+## Guide contents
+* [Introduction]() (This page)
 * [Motivation: why should we pay attention to the brain for AI?]()
 * [Overviews: What, broadly speaking, is the brain computing?]()
 * [The Cerebral Cortex: A Very Tangled Web]()
@@ -20,7 +21,7 @@ title: Systems Neuroscience for AI&#58; An Introductory Guide to the Literature
 * [Conclusions]()
 
 > “The brain is arguably still the only example that we have of something that approximates the kind of intelligence we’re trying to build, and so it seems like a good idea to pay some attention to how it works.”  
-> - Matt Botvinick, Director of Neuroscience Research, DeepMind
+> Matt Botvinick, Director of Neuroscience Research, DeepMind
 
 _**TL;DR**: This guide aims to give AI researchers a skeleton-frame introduction to modern systems neuroscience and contextualise specific recent AI research with respect to those systems. It focuses on views of neuroscientific systems that are deemed most likely to be useful for AI research in the near term. Despite efforts to remove personal biases and omissions, some will remain in any concise guide with such a broad scope. Some articles are behind paywalls; Sci-hub exists._
 
