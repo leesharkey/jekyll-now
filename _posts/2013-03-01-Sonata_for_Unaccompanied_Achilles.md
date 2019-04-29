@@ -6,7 +6,7 @@ title: Sonata for Unaccompanied Achilles
 
 ---
 
-One of my earlier pieces of writing, approx. March 2013. It was a lot of fun writing this, even if now I'd be more careful with the mathematical words used. Runner-up in the Dame Ivy Compton-Burnett Prize for Creative Writing (Pembroke College, Cambridge).
+One of my earlier pieces of writing, approx. March 2013. It was a lot of fun writing this, even if now I'd be more careful with the technical words used. Runner-up in the Dame Ivy Compton-Burnett Prize for Creative Writing (Pembroke College, Cambridge).
 
 <br>
 
