@@ -2,8 +2,7 @@
 
 layout: post
 
-title: >
-Systems Neuroscience for AI: An Introductory Guide to the Literature
+title: Systems Neuroscience for AI&#58; An Introductory Guide to the Literature
 
 ---
 
