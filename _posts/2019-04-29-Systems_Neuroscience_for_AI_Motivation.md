@@ -48,13 +48,14 @@ _The fields of neuroscience and artificial intelligence (AI) have a long and int
 Associated talks: https://www.youtube.com/watch?v=Qgd3OK5DZWI
 </p>
 
+<span style="color:#424949">
 ### The intertwined quest for understanding biological intelligence and creating artificial intelligence
 Surya Ganguli, 2018
 
 https://hai.stanford.edu/news/intertwined-quest-understanding-biological-intelligence-and-creating-artificial-intelligence
 
 _No abstract available_
-</p>
+</span>
 
 <br>
 <p markdown='1' style="text-align:center">---</p>
