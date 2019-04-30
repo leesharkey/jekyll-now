@@ -48,7 +48,7 @@ This question keeps neuroscientists of all stripes awake at night. To break the 
 
 
 <style type="text/css">
-  table          {border:ridge 5px black;}
+  table          {border:ridge 1px grey;}
   table td       {border:inset 1px #000;}
   table tr#ROW1  {background-color:red; color:white;}
   table tr#ROW2  {background-color:white;}
@@ -59,17 +59,47 @@ This question keeps neuroscientists of all stripes awake at night. To break the 
 <colgroup>
 <col width="100%" />
 </colgroup>
-<thead>
-<tr class="header">
-<th>Field</th>
-</tr>
-</thead>
 <tbody>
-<tr>
-<td markdown="span">First column **fields**</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
-</tr>
+<tr><td markdown="span"> #### The computational level
+What generic problems are being solved? What information is abstracted and why? What do different programs do on an abstract level? 
+</td></tr>
+<tr><td>Neuroscience examples: 
+* Is the cortex performing unsupervised learning? Prediction? Reinforcement learning? Supervised learning? Meta-learning? Is it just minimising ‘free energy’?
+* Does the brain use an episodic memory buffer? Or is it just memorising sequences of activity? Are these the same thing?
+</td></tr>
+<tr><td>AI examples: 
+* Should our system predict future inputs? Should the system compress input data or just memorise all of it?
+* Should the system learn a probability distribution or a deterministic function? 
+What mathematical quantity should the system optimise?
+</td></tr>
+<tr><td> #### The algorithmic/representation level
+How exactly does the system solve the problems described on the computational level? What assumptions, computations, or representations does it use? How are the objects in the implementational level used to compute the programs on the computational level?
+</td></tr>
+<tr><td>Neuroscience examples:
+* What representational format do cortical predictions and uncertainty take? And is the sparse coding performed by ICA, winner-takes-all, non-negative PCA, or some other algorithm? 
+* Are the basal ganglia calculating the temporal difference learning equation? How are expected rewards and value functions calculated and how are state-values updated? How are states represented?
+* What mathematical descriptions can be given to the seemingly chaotic dynamics of recurrent systems with many neurons?
+</td></tr>
+<tr><td>AI examples: 
+* Should our model use deep learning or other algorithms? 
+* What deep learning architecture should be used to perform prediction? LSTM? Transformer?
+* How should reinforcement learning used in our system be structured? Model-based or model-free? Hierarchical or not? Distributed training or not? Should the RL algorithm incorporate MAML or not?
+</td></tr>
+<tr><td> #### The implementational level
+What is the physical instantiation of the computational algorithms and representations? How exactly does the hardware run the programs from the computational algorithmic level?
+</td></tr>
+<tr><td>Neuroscience examples:
+* How do cortical pyramidal neurons integrate incoming signals and decide when to fire? What proteins and other structures are involved and how do they function?
+* Which neurons are connected to which other neurons (on a micro- and macroscopic scale)? 
+* Do neural oscillations, such as gamma oscillations, have a functional role in neural computation or are they mere side-effects or neural activity? 
+* What role do glial cells play in neural function?
+</td></tr>
+<tr><td>AI examples:
+* What materials should we use in chip design, and how should they be arranged?
+* How best to parallelise matrix computation in a GPU? 
+* Can we design neuromorphic circuits and chips that make better use of the physics of the chips to perform useful computation? 
+* In what framework or language should we write our architecture? Tensorflow? Theano? Python? C? Do these frameworks have the requisite functions for our algorithm? Do they perform them efficiently?
+</td></tr>
 </tbody>
 </table>
 
