@@ -26,36 +26,37 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 
 It is commonplace to hear in some quarters that, nowadays, any alleged link between neuroscience and artificial intelligence is spurious. Informed accounts such as Hassabis et al. (2017) and this excellent post by Surya Ganguli at Stanford (both linked below) show that the link between neuroscience and artificial intelligence has always - and continues - to run deep. 
 
-<h3 markdown='1' style="color:#424949">
+<h3 markdown='1' style="color:#515A5A">
 Neuroscience-Inspired Artificial Intelligence
 </h3>
 
-<p markdown='1' style="color:#424949">
+<p markdown='1' style="color:#515A5A">
 Neuron. Volume 95, Issue 2, p245-258, 19 July 2017
 Demis Hassabis, Dharshan Kumaran, Christopher Summerfield, Matthew Botvinick
 https://doi.org/10.1016/j.neuron.2017.06.011 
 </p>
 
-<p markdown='1' style="color:#424949">
-*Abstract*
-</p>
-
-<p markdown='1' style="color:#424949">
+<p markdown='1' style="color:#515A5A">
+**Abstract**
 _The fields of neuroscience and artificial intelligence (AI) have a long and intertwined history. In more recent times, however, communication and collaboration between the two fields has become less commonplace. In this article, we argue that better understanding biological brains could play a vital role in building intelligent machines. We survey historical interactions between the AI and neuroscience fields and emphasize current advances in AI that have been inspired by the study of neural computation in humans and other animals. We conclude by highlighting shared themes that may be key for advancing future research in both fields._
 </p>
 
-<p markdown='1' style="color:#424949">
+<p markdown='1' style="color:#515A5A">
 Associated talks: https://www.youtube.com/watch?v=Qgd3OK5DZWI
 </p>
 
 
-### The intertwined quest for understanding biological intelligence and creating artificial intelligence {: color: #424949 }
+<h3 markdown='1' style="color:#515A5A">
+The intertwined quest for understanding biological intelligence and creating artificial intelligence {: color: #424949 }
+</h3>
+
+<p markdown='1' style="color:#515A5A">
 Surya Ganguli, 2018
 
 https://hai.stanford.edu/news/intertwined-quest-understanding-biological-intelligence-and-creating-artificial-intelligence
 
 _No abstract available_
-
+</p>
 
 <br>
 <p markdown='1' style="text-align:center">---</p>
@@ -68,16 +69,17 @@ Even though we do not currently have a complete functional picture of intelligen
 * Dileep George: What can the brain teach us about building artificial intelligence?
 
 
-### Building machines that learn and think like people 
+<h3 markdown='1' style="color:#515A5A">Building machines that learn and think like people</h3>
+<p markdown='1' style="color:#515A5A">
 Behavioral and Brain Sciences. Volume 40 2017 , e253
 Brenden M. Lake, Tomer D. Ullman, Joshua B. Tenenbaum and Samuel J. Gershman
 https://doi.org/10.1017/S0140525X16001837
 
-*Abstract*
+**Abstract**
 _Recent progress in artificial intelligence has renewed interest in building systems that learn and think like people. Many advances have come from using deep neural networks trained end-to-end in tasks such as object recognition, video games, and board games, achieving performance that equals or even beats that of humans in some respects. Despite their biological inspiration and performance achievements, these systems differ from human intelligence in crucial ways. We review progress in cognitive science suggesting that truly human-like learning and thinking machines will have to reach beyond current engineering trends in both what they learn and how they learn it. Specifically, we argue that these machines should (1) build causal models of the world that support explanation and understanding, rather than merely solving pattern recognition problems; (2) ground learning in intuitive theories of physics and psychology to support and enrich the knowledge that is learned; and (3) harness compositionality and learning-to-learn to rapidly acquire and generalize knowledge to new tasks and situations. We suggest concrete challenges and promising routes toward these goals that can combine the strengths of recent neural network advances with more structured cognitive models._
 
 Associated talks: https://www.youtube.com/watch?v=7ROelYvo8f0 
-
+</p>
 
 
 
