@@ -57,7 +57,7 @@ Now familiar with the idea that different parts of the brain are performing diff
 
 
 <h3 markdown='1' style="color:#515A5A">
-Toward an Integration of Deep Learning and Neuroscience
+[Toward an Integration of Deep Learning and Neuroscience](https://doi.org/10.3389/fncom.2016.00094)
 </h3>
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/marblestone.png">
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/marblestone_pic.png">
