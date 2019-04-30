@@ -71,7 +71,7 @@ What generic problems are being solved? What information is abstracted and why? 
 </ul>
 </td></tr>
 
-<tr><td>AI examples: 
+<tr bgcolor="#0000ff"><td style="color: white">AI examples: 
 <ul>
 <li> Should our system predict future inputs? Should the system compress input data or just memorise all of it?</li>
 <li>Should the system learn a probability distribution or a deterministic function? </li>
@@ -84,7 +84,7 @@ What generic problems are being solved? What information is abstracted and why? 
 How exactly does the system solve the problems described on the computational level? What assumptions, computations, or representations does it use? How are the objects in the implementational level used to compute the programs on the computational level?
 </td></tr>
 
-<tr><td>Neuroscience examples:
+<tr bgcolor="#85d757"><td>Neuroscience examples:
 <ul>
 <li>What representational format do cortical predictions and uncertainty take? And is the sparse coding performed by ICA, winner-takes-all, non-negative PCA, or some other algorithm? </li>
 <li>Are the basal ganglia calculating the temporal difference learning equation? How are expected rewards and value functions calculated and how are state-values updated? How are states represented?</li>
@@ -92,7 +92,7 @@ How exactly does the system solve the problems described on the computational le
 </ul>
 </td></tr>
 
-<tr><td>AI examples: 
+<tr bgcolor="#4a86e8"><td>AI examples: 
 <ul>
 <li>Should our model use deep learning or other algorithms? </li>
 <li>What deep learning architecture should be used to perform prediction? LSTM? Transformer?</li>
@@ -104,7 +104,7 @@ How exactly does the system solve the problems described on the computational le
 <h4>The implementational level</h4>
 What is the physical instantiation of the computational algorithms and representations? How exactly does the hardware run the programs from the computational algorithmic level?
 </td></tr>
-<tr><td>Neuroscience examples:
+<tr bgcolor="#b6d7a8"><td>Neuroscience examples:
 <ul>
 <li>How do cortical pyramidal neurons integrate incoming signals and decide when to fire? What proteins and other structures are involved and how do they function?</li>
 <li>Which neurons are connected to which other neurons (on a micro- and macroscopic scale)? </li>
@@ -113,7 +113,7 @@ What is the physical instantiation of the computational algorithms and represent
 </ul>
 </td></tr>
 
-<tr><td>AI examples:
+<tr bgcolor="#cfe2f3"><td>AI examples:
 <ul>
 <li>What materials should we use in chip design, and how should they be arranged?</li>
 <li>How best to parallelise matrix computation in a GPU?</li>
