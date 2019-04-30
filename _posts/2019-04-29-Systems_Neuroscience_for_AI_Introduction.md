@@ -50,6 +50,7 @@ This question keeps neuroscientists of all stripes awake at night. To break the 
 <style>
 table, th, td {
   border: None;
+  padding: 3px
 }
 </style>
 
