@@ -47,13 +47,11 @@ Associated talks: https://www.youtube.com/watch?v=Qgd3OK5DZWI
 
 
 <h3 markdown='1' style="color:#515A5A">
-The intertwined quest for understanding biological intelligence and creating artificial intelligence 
+[The intertwined quest for understanding biological intelligence and creating artificial intelligence](https://hai.stanford.edu/news/intertwined-quest-understanding-biological-intelligence-and-creating-artificial-intelligence)
 </h3>
 <img align="right" src="../images/sysneuroai_images/Gangulipost.png">
 <p markdown='1' style="color:#515A5A">
 Surya Ganguli, 2018
-
-https://hai.stanford.edu/news/intertwined-quest-understanding-biological-intelligence-and-creating-artificial-intelligence
 
 _No abstract available_
 </p>
