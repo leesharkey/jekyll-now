@@ -54,11 +54,11 @@ table, th, td {
 </style>
 
 <table>
-<colgroup>
-<col width="100%" />
-</colgroup>
-<tbody>
-<tr><td> <h4>The computational level</h4>
+  <colgroup>
+  <col width="100%" />
+  </colgroup>
+  <tbody>
+  <tr><td> <h4>The computational level</h4>
 What generic problems are being solved? What information is abstracted and why? What do different programs do on an abstract level? 
 </td></tr>
 <tr><td>Neuroscience examples: 
@@ -72,6 +72,7 @@ What generic problems are being solved? What information is abstracted and why? 
   <li> Should our system predict future inputs? Should the system compress input data or just memorise all of it?</li>
   <li>Should the system learn a probability distribution or a deterministic function? 
 What mathematical quantity should the system optimise?</li>
+</ul>
 </td></tr>
 <tr><td> <h4>The algorithmic/representation level</h4>
 How exactly does the system solve the problems described on the computational level? What assumptions, computations, or representations does it use? How are the objects in the implementational level used to compute the programs on the computational level?
