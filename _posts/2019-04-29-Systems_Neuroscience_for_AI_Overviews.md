@@ -33,6 +33,7 @@ Going forward, it will be helpful to have a broad overview of the computational 
 <p markdown='1' style="color:#515A5A">
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/Doya2000.png">
 
+<img align="right" width="250" height="235" src="../images/sysneuroai_images/doya2000_pic.png">
 Current Opinion in Neurobiology 2000, 10:732–739<br>
 Kenji Doya<br>
 https://doi.org/10.1016/S0959-4388(00)00153-7<br>
@@ -43,9 +44,14 @@ _The classical notion that the basal ganglia and the cerebellum are dedicated to
 <br>
 
 Associated talks: https://youtu.be/iJeuZ7Q2Tk0<br>
-(Note: This talk from _Canonical Computation in Brains and Machines 2018_ gives an updated overview of Doya’s perspectives on large scale function of the brain. Highly recommended.)_
+(Note: This talk from_ Canonical Computation in Brains and Machines 2018 _gives an updated overview of Doya’s perspectives on large scale function of the brain. Highly recommended.)_
 
 </p>
+
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
+<br>
 
 Now familiar with the idea that different parts of the brain are performing different types of computation, the perspective that the brain computes a number of different specific cost functions should come as no surprise. While the specifics of how the brain represents, computes, and minimises these cost functions remain elusive, much of the progress that has been made in this regard in the years since Doya (2000) is discussed by Marblestone et al. (2016). Specifically, they discuss this progress with respect to recent, complementary advances in deep learning, but the jury is still out on exactly how similar the algorithms of deep learning are to the brain’s own learning mechanisms. Marblestone et al. (2016) is the only selected review that discusses inter alia biologically plausible learning rules, and includes discussion on the contentious issue of backpropagation in the brain. This neuroscientific claim is very much not consensus and it should be remarked that the view receives a considerably better reception in the world of machine learning than in the world of neuroscience (according to Blake Richards, who works on the topic). Nevertheless, at very least, backprop seems like a appropriate source of inspiration in the search for the true learning rule(s), even if ends up being a scientific dead-end. 
 
@@ -53,6 +59,8 @@ Now familiar with the idea that different parts of the brain are performing diff
 <h3 markdown='1' style="color:#515A5A">
 Toward an Integration of Deep Learning and Neuroscience
 </h3>
+<img align="right" width="250" height="235" src="../images/sysneuroai_images/marblestone.png">
+<img align="right" width="250" height="235" src="../images/sysneuroai_images/marblestone_pic.png">
 <p markdown='1' style="color:#515A5A">
 Front. Comput. Neurosci., 14 September 2016
 <br>
