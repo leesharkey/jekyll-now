@@ -60,7 +60,7 @@ This question keeps neuroscientists of all stripes awake at night. To break the 
 <col width="100%" />
 </colgroup>
 <tbody>
-<tr><td markdown="span"> #### The computational level
+<tr><td markdown="span"> <h4>The computational level</h4>
 What generic problems are being solved? What information is abstracted and why? What do different programs do on an abstract level? 
 </td></tr>
 <tr><td>Neuroscience examples: 
