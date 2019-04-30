@@ -45,7 +45,7 @@ https://hai.stanford.edu/news/intertwined-quest-understanding-biological-intelli
 _No abstract available_
 
 <br>
-<p style="text-align:center";>---</p>
+<p markdown='1' style="text-align:center">---</p>
 <br>
 
 
