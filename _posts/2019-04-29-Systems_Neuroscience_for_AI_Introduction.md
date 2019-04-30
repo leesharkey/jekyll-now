@@ -47,12 +47,10 @@ Despite my best efforts, the guide omits several important research areas. Altho
 This question keeps neuroscientists of all stripes awake at night. To break the question into more manageable parts, neuroscientists often find it useful to invoke [David Marr’s](https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)) three ‘levels of analysis’ (see list below), which, by analogy to a computer, describe the **computational level**, which is specified on the **algorithmic/representation level**, which in turn is implemented on the **implementation level**. It is important to recognise that these levels have overlapping boundaries due to the curse of reductionism: In order to completely understand a system on one level, you must understand it on the level below. Despite these dependencies, they serve as a useful aid for setting a manageable scope for many neuroscientific questions. Additionally, while the levels help frame questions of neuroscientific description (“What is…?” or “How does…?”), the levels of analysis can also be applied to questions of artificial intelligence design (“How should…?”).
 
 
-<style type="text/css">
-  table          {border:ridge 1px grey;}
-  table td       {border:inset 1px #000;}
-  table tr#ROW1  {background-color:red; color:white;}
-  table tr#ROW2  {background-color:white;}
-  table tr#ROW3  {background-color:blue; color:white;}
+<style>
+table, th, td {
+  border: 1px solid black;
+}
 </style>
 
 <table>
@@ -60,12 +58,14 @@ This question keeps neuroscientists of all stripes awake at night. To break the 
 <col width="100%" />
 </colgroup>
 <tbody>
-<tr><td markdown="span"> <h4>The computational level</h4>
+<tr><td> <h4>The computational level</h4>
 What generic problems are being solved? What information is abstracted and why? What do different programs do on an abstract level? 
 </td></tr>
 <tr><td>Neuroscience examples: 
-* Is the cortex performing unsupervised learning? Prediction? Reinforcement learning? Supervised learning? Meta-learning? Is it just minimising ‘free energy’?
-* Does the brain use an episodic memory buffer? Or is it just memorising sequences of activity? Are these the same thing?
+<ul>
+  <li> Is the cortex performing unsupervised learning? Prediction? Reinforcement learning? Supervised learning? Meta-learning? Is it just minimising ‘free energy’?</li>
+  <li>Does the brain use an episodic memory buffer? Or is it just memorising sequences of activity? Are these the same thing?</li>
+</ul>
 </td></tr>
 <tr><td>AI examples: 
 * Should our system predict future inputs? Should the system compress input data or just memorise all of it?
