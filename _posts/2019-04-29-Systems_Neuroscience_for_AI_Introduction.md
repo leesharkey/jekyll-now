@@ -54,58 +54,71 @@ table, th, td {
 </style>
 
 <table>
-  <colgroup>
-  <col width="100%" />
-  </colgroup>
-  <tbody>
-  <tr><td> <h4>The computational level</h4>
+<colgroup>
+<col width="100%" />
+</colgroup>
+
+<tbody>
+<tr><td>
+<h4>The computational level</h4>
 What generic problems are being solved? What information is abstracted and why? What do different programs do on an abstract level? 
 </td></tr>
+
 <tr><td>Neuroscience examples: 
 <ul>
-  <li> Is the cortex performing unsupervised learning? Prediction? Reinforcement learning? Supervised learning? Meta-learning? Is it just minimising ‘free energy’?</li>
-  <li>Does the brain use an episodic memory buffer? Or is it just memorising sequences of activity? Are these the same thing?</li>
+<li> Is the cortex performing unsupervised learning? Prediction? Reinforcement learning? Supervised learning? Meta-learning? Is it just minimising ‘free energy’?</li>
+<li>Does the brain use an episodic memory buffer? Or is it just memorising sequences of activity? Are these the same thing?</li>
 </ul>
 </td></tr>
+
 <tr><td>AI examples: 
 <ul>
-  <li> Should our system predict future inputs? Should the system compress input data or just memorise all of it?</li>
-  <li>Should the system learn a probability distribution or a deterministic function? 
-What mathematical quantity should the system optimise?</li>
+<li> Should our system predict future inputs? Should the system compress input data or just memorise all of it?</li>
+<li>Should the system learn a probability distribution or a deterministic function? </li>
+<li>What mathematical quantity should the system optimise?</li>
 </ul>
 </td></tr>
-<tr><td> <h4>The algorithmic/representation level</h4>
+
+<tr><td>
+<h4>The algorithmic/representation level</h4>
 How exactly does the system solve the problems described on the computational level? What assumptions, computations, or representations does it use? How are the objects in the implementational level used to compute the programs on the computational level?
 </td></tr>
+
 <tr><td>Neuroscience examples:
 <ul>
-  <li>What representational format do cortical predictions and uncertainty take? And is the sparse coding performed by ICA, winner-takes-all, non-negative PCA, or some other algorithm? </li>
-  <li>Are the basal ganglia calculating the temporal difference learning equation? How are expected rewards and value functions calculated and how are state-values updated? How are states represented?</li>
-  <li>What mathematical descriptions can be given to the seemingly chaotic dynamics of recurrent systems with many neurons?</li>
+<li>What representational format do cortical predictions and uncertainty take? And is the sparse coding performed by ICA, winner-takes-all, non-negative PCA, or some other algorithm? </li>
+<li>Are the basal ganglia calculating the temporal difference learning equation? How are expected rewards and value functions calculated and how are state-values updated? How are states represented?</li>
+<li>What mathematical descriptions can be given to the seemingly chaotic dynamics of recurrent systems with many neurons?</li>
 </ul>
 </td></tr>
+
 <tr><td>AI examples: 
 <ul>
-  <li>Should our model use deep learning or other algorithms? </li>
-  <li>What deep learning architecture should be used to perform prediction? LSTM? Transformer?</li>
-  <li>How should reinforcement learning used in our system be structured? Model-based or model-free? Hierarchical or not? Distributed training or not? Should the RL algorithm incorporate MAML or not?</li>
+<li>Should our model use deep learning or other algorithms? </li>
+<li>What deep learning architecture should be used to perform prediction? LSTM? Transformer?</li>
+<li>How should reinforcement learning used in our system be structured? Model-based or model-free? Hierarchical or not? Distributed training or not? Should the RL algorithm incorporate MAML or not?</li>
+</ul>
 </td></tr>
-<tr><td> <h4>The implementational level</h4>
+
+<tr><td>
+<h4>The implementational level</h4>
 What is the physical instantiation of the computational algorithms and representations? How exactly does the hardware run the programs from the computational algorithmic level?
 </td></tr>
 <tr><td>Neuroscience examples:
 <ul>
-  <li>How do cortical pyramidal neurons integrate incoming signals and decide when to fire? What proteins and other structures are involved and how do they function?</li>
-  <li>Which neurons are connected to which other neurons (on a micro- and macroscopic scale)? </li>
-  <li>Do neural oscillations, such as gamma oscillations, have a functional role in neural computation or are they mere side-effects or neural activity?</li>
-  <li>What role do glial cells play in neural function?</li>
+<li>How do cortical pyramidal neurons integrate incoming signals and decide when to fire? What proteins and other structures are involved and how do they function?</li>
+<li>Which neurons are connected to which other neurons (on a micro- and macroscopic scale)? </li>
+<li>Do neural oscillations, such as gamma oscillations, have a functional role in neural computation or are they mere side-effects or neural activity?</li>
+<li>What role do glial cells play in neural function?</li>
+</ul>
 </td></tr>
+
 <tr><td>AI examples:
 <ul>
-  <li>What materials should we use in chip design, and how should they be arranged?</li>
-  <li>How best to parallelise matrix computation in a GPU?</li>
-  <li>Can we design neuromorphic circuits and chips that make better use of the physics of the chips to perform useful computation?</li>
-  <li>In what framework or language should we write our architecture? Tensorflow? Theano? Python? C? Do these frameworks have the requisite functions for our algorithm? Do they perform them efficiently?</li>
+<li>What materials should we use in chip design, and how should they be arranged?</li>
+<li>How best to parallelise matrix computation in a GPU?</li>
+<li>Can we design neuromorphic circuits and chips that make better use of the physics of the chips to perform useful computation?</li>
+<li>In what framework or language should we write our architecture? Tensorflow? Theano? Python? C? Do these frameworks have the requisite functions for our algorithm? Do they perform them efficiently?</li>
 </ul>
 </td></tr>
 </tbody>
