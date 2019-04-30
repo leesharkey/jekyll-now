@@ -59,6 +59,7 @@ _No abstract available_
 <br>
 <p markdown='1' style="text-align:center">---</p>
 <br>
+<br>
 
 Even though we do not currently have a complete functional picture of intelligence, one use studying the brain is to make a top-down attempt to break intelligence into component functions. First, we can study what we think are the prerequisite functions (“start-up software”) needed for general intelligence. We can then examine functions of general intelligence that build on the start-up software, such as model-building, understanding causality, or compositionality. This top-down approach is supported in the following review by Lake et al. (2015). Readers are particularly encouraged to read the full version and their responses in the Behavioral and Brain Sciences edition of the article (as opposed to the one on Arxiv) since the full version also includes lively responses from other prominent voices in the field that, while in agreement, tend to counterbalance Lake et al. with arguments for the bottom-up approach. Of particular mention for our purposes{link} are the responses by 
 * Botvinick et al.: Building machines that learn and think for themselves
@@ -72,6 +73,7 @@ Behavioral and Brain Sciences. Volume 40 2017 , e253<br>
 Brenden M. Lake, Tomer D. Ullman, Joshua B. Tenenbaum and Samuel J. Gershman<br>
 https://doi.org/10.1017/S0140525X16001837<br>
 
+<br>
 **Abstract**<br>
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/lake.png">
 _Recent progress in artificial intelligence has renewed interest in building systems that learn and think like people. Many advances have come from using deep neural networks trained end-to-end in tasks such as object recognition, video games, and board games, achieving performance that equals or even beats that of humans in some respects. Despite their biological inspiration and performance achievements, these systems differ from human intelligence in crucial ways. We review progress in cognitive science suggesting that truly human-like learning and thinking machines will have to reach beyond current engineering trends in both what they learn and how they learn it. Specifically, we argue that these machines should (1) build causal models of the world that support explanation and understanding, rather than merely solving pattern recognition problems; (2) ground learning in intuitive theories of physics and psychology to support and enrich the knowledge that is learned; and (3) harness compositionality and learning-to-learn to rapidly acquire and generalize knowledge to new tasks and situations. We suggest concrete challenges and promising routes toward these goals that can combine the strengths of recent neural network advances with more structured cognitive models._<br>
