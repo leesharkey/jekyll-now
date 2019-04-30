@@ -64,7 +64,7 @@ table, th, td {
 What generic problems are being solved? What information is abstracted and why? What do different programs do on an abstract level? 
 </td></tr>
 
-<tr bgcolor="forestgreen" class="white"><td>Neuroscience examples: 
+<tr bgcolor="forestgreen"><td style="color: white">Neuroscience examples: 
 <ul>
 <li> Is the cortex performing unsupervised learning? Prediction? Reinforcement learning? Supervised learning? Meta-learning? Is it just minimising ‘free energy’?</li>
 <li>Does the brain use an episodic memory buffer? Or is it just memorising sequences of activity? Are these the same thing?</li>
