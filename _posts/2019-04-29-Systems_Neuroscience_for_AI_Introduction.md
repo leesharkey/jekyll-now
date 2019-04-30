@@ -160,7 +160,7 @@ For each paper, I provide a small, contextualising introduction. After each syst
 Not everyone will want (or need) to read every paper. In order to help readers identify which papers they’d like to prioritise, each selected review has a pie-chart that estimates the amount that it focuses on a particular level of analysis. A review that focuses equally on all levels of analysis for both AI and neuroscience would look like this:
 
 
-![Template pie chart](/images/sysneuroai_images/template.png)
+![Template pie chart](/images/sysneuroai_images/template.png){.center}
 
 
 Before the real content, a practical note: the depressing closedness of biology literature might come as a surprise to those only familiar with the quantitative sciences. Biomedicine has long been in the grips of a [publishing house kabal](https://www.nature.com/news/open-access-the-true-cost-of-science-publishing-1.12676), though there are [encouraging signs](https://www.nature.com/articles/d41586-018-06178-7) for the open science campaign. Until the field improves its publishing norms, you’ll probably need an institutional subscription. I’m not making [a public recommendation for](https://slatestarcodex.com/2018/03/19/the-dark-rule-utilitarian-argument-for-science-piracy/) or against its use here, but be aware that [Sci-hub](https://whereisscihub.now.sh/go) exists. Also be aware that it may break laws in your country, even though your country [might](https://openscience.com/elsevier-gets-blocked-in-sweden-after-it-legally-requires-internet-providers-to-make-sci-hub-locally-inaccessible/) want it to be legal. 
