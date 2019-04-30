@@ -6,7 +6,7 @@ title: Systems Neuroscience for AI&#58; An Introductory Guide to the Literature
 
 ---
 
-## Guide contents
+#### Guide contents
 * [Introduction]() (This page)
 * [Motivation: why should we pay attention to the brain for AI?]()
 * [Overviews: What, broadly speaking, is the brain computing?]()
@@ -23,7 +23,7 @@ title: Systems Neuroscience for AI&#58; An Introductory Guide to the Literature
 > “The brain is arguably still the only example that we have of something that approximates the kind of intelligence we’re trying to build, and so it seems like a good idea to pay some attention to how it works.”  
 > Matt Botvinick, Director of Neuroscience Research, DeepMind
 
-_**TL;DR**: This guide aims to give AI researchers a skeleton-frame introduction to modern systems neuroscience and contextualise specific recent AI research with respect to those systems. It focuses on views of neuroscientific systems that are deemed most likely to be useful for AI research in the near term. Despite efforts to remove personal biases and omissions, some will remain in any concise guide with such a broad scope. Some articles are behind paywalls; Sci-hub exists._
+_**TL;DR**: This guide aims to give AI researchers a skeleton-frame introduction to modern systems neuroscience and contextualise specific recent AI research with respect to those systems. It focuses on views of neuroscientific systems that are deemed most likely to be useful for AI research in the near term. Despite efforts to remove personal biases and omissions, some will remain in any concise guide with such a broad scope. Some articles are behind paywalls. Sci-hub exists._
 
 General intelligence is ostensibly the central goal of the field of AI. Yet, with a few notable exceptions, few in AI research pay much attention to the only known example of general intelligence: the human brain. Although some early AI took inspiration from neuroscience, the two fields gradually grew more distant while statistical-theoretical and computational constraints caught up with the neuroscientific theory. Today, the time is ripe for an academic rapprochement between the two fields, and it’s happening. But finding good, modern sources for getting up to speed on biological intelligence takes a lot of time; it’s costly even to figure out what areas of neuroscience to prioritise. And when thousands upon thousands of new AI papers come out every year, keeping abreast in both fields is a near impossible challenge. 
 
@@ -39,19 +39,45 @@ The scope of this resource has such an extensive breadth and depth that it would
 1. permitting readers to benefit from motivating explanations of the review content from people with more time to devote to the field of cognitive, computational & systems neuroscience, and
 2. maintaining the authority, recency, and accuracy of the content.
 
-Although the reading list is guided, readers can begin in any section and read sections in any order with one exception: if the reader would like very quickly to brush up on undergraduate-level neuroscience prerequisites, they should first read Chapter 15 “Neuroscience” of Reinforcement Learning: An Introduction (Sutton and Barto 2018).
+Although the reading list is guided, readers can begin in any section and read sections in any order with one exception: if the reader would like very quickly to brush up on undergraduate-level neuroscience prerequisites, they should first read Chapter 15 “Neuroscience” of [Reinforcement Learning: An Introduction (Sutton and Barto 2018)](http://incompleteideas.net/book/RLbook2018.pdf).
 
-Despite my best efforts, the guide omits several important research areas. Although I have sought and received review recommendation beyond my own initial readings, it is impossible to stamp out all idiosyncrasies in the views presented here, especially while keeping the guide moderately concise; the selections and omissions therefore contain personal biases toward a particular view of what topics in neuroscience are important for AI. To highlight and possibly counterbalance these biases, I will do my best briefly to be explicit about where the emphases lie. In order to do that, it will be helpful to introduce Marr’s three level of analysis. Readers familiar with Marr’s levels of analysis should feel free to skip the following interlude. 
+Despite my best efforts, the guide omits several important research areas. Although I have sought and received review recommendation beyond my own initial readings, it is impossible to stamp out all idiosyncrasies in the views presented here, especially while keeping the guide moderately concise; the selections and omissions therefore contain personal biases toward a particular view of what topics in neuroscience are important for AI. To highlight and possibly counterbalance these biases, I will do my best briefly to be explicit about where the emphases lie. In order to do that, it will be helpful to introduce Marr’s three level of analysis. Readers familiar with Marr’s levels of analysis should feel free to skip the following intermezzo. 
 
-## Interlude: What would an explanation of the brain even look like?
-This question keeps neuroscientists of all stripes awake at night. To break the question into more manageable parts, neuroscientists often find it useful to invoke David Marr’s three ‘levels of analysis’ (see list below), which, by analogy to a computer, describe the **computational level**, which is specified on the **algorithmic/representation level**, which in turn is implemented on the **implementation level**. It is important to recognise that these levels have overlapping boundaries due to the curse of reductionism: In order to completely understand a system on one level, you must understand it on the level below. Despite these dependencies, they serve as a useful aid for setting a manageable scope for many neuroscientific questions. Additionally, while the levels help frame questions of neuroscientific description (“What is…?” or “How does…?”), the levels of analysis can also be applied to questions of artificial intelligence design (“How should…?”).
+## Intermezzo: What would an explanation of the brain even look like?
+This question keeps neuroscientists of all stripes awake at night. To break the question into more manageable parts, neuroscientists often find it useful to invoke [David Marr’s](https://en.wikipedia.org/wiki/David_Marr_(neuroscientist)) three ‘levels of analysis’ (see list below), which, by analogy to a computer, describe the **computational level**, which is specified on the **algorithmic/representation level**, which in turn is implemented on the **implementation level**. It is important to recognise that these levels have overlapping boundaries due to the curse of reductionism: In order to completely understand a system on one level, you must understand it on the level below. Despite these dependencies, they serve as a useful aid for setting a manageable scope for many neuroscientific questions. Additionally, while the levels help frame questions of neuroscientific description (“What is…?” or “How does…?”), the levels of analysis can also be applied to questions of artificial intelligence design (“How should…?”).
 
-table
+
+<style type="text/css">
+  table          {border:ridge 5px black;}
+  table td       {border:inset 1px #000;}
+  table tr#ROW1  {background-color:red; color:white;}
+  table tr#ROW2  {background-color:white;}
+  table tr#ROW3  {background-color:blue; color:white;}
+</style>
+
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">First column **fields**</td>
+<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
+<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
+</tr>
+</tbody>
+</table>
 
 
 ## What this guide focuses on and what it ignores
-We currently do not have a good enough understanding of any single level of analysis in neuroscience to know with certainty what topics are safe to ignore. As such, this guide introduces neuroscience reviews from all three levels but places greater emphasis on the computational and algorithmic/representational levels than on the implementation level. This is not to say that excluded topics won’t be useful for building general intelligence - it just reflects my view of what systems-neuroscientific concepts AI researchers are likely to find useful in the short to medium term. This is consistent with the emphasis placed by Hassabis, who has said for a long time that many approaches to building general intelligence focus on parts of neuroscience that are too high- or low-level to be immediately useful for building intelligence. The guide therefore focuses on: 
+We currently do not have a good enough understanding of any single level of analysis in neuroscience to know with certainty what topics are safe to ignore. As such, this guide introduces neuroscience reviews from all three levels but places greater emphasis on the computational and algorithmic/representational levels than on the implementation level. This is not to say that excluded topics won’t be useful for building general intelligence - it just reflects my view of what systems-neuroscientific concepts AI researchers are likely to find useful in the short to medium term. This is consistent with the emphasis placed by Hassabis, who has [said](https://www.youtube.com/watch?v=Qgd3OK5DZWI) for a long time that many approaches to building general intelligence focus on parts of neuroscience that are too high- or low-level to be immediately useful for building intelligence. 
 
+The guide therefore focuses on: 
 * The functions that particular brain areas are believed to perform and, where possible, how they are believed to perform them.
 * The high-level algorithms the brain is believed to be implementing and what we know about how they are performed
 * Relations between the discussed brain parts and systems
@@ -85,7 +111,8 @@ Not everyone will want (or need) to read every paper. In order to help readers i
 ![Template pie chart](/images/sysneuroai_images/template.png)
 
 
-Before the real content, a practical note: the depressing closedness of biology literature might come as a surprise to those only familiar with the quantitative sciences. Biomedicine has long been in the grips of a publishing house kabal, though there are encouraging signs for the open science campaign. Until the field improves its publishing norms, you’ll probably need an institutional subscription. I’m not making a public recommendation for or against its use here, but be aware that Sci-hub exists. Also be aware that it may break laws in your country, even though your country might want it to be legal. 
+Before the real content, a practical note: the depressing closedness of biology literature might come as a surprise to those only familiar with the quantitative sciences. Biomedicine has long been in the grips of a [publishing house kabal](https://www.nature.com/news/open-access-the-true-cost-of-science-publishing-1.12676), though there are [encouraging signs](https://www.nature.com/articles/d41586-018-06178-7) for the open science campaign. Until the field improves its publishing norms, you’ll probably need an institutional subscription. I’m not making [a public recommendation for](https://slatestarcodex.com/2018/03/19/the-dark-rule-utilitarian-argument-for-science-piracy/) or against its use here, but be aware that [Sci-hub](https://whereisscihub.now.sh/go) exists. Also be aware that it may break laws in your country, even though your country [might](https://openscience.com/elsevier-gets-blocked-in-sweden-after-it-legally-requires-internet-providers-to-make-sci-hub-locally-inaccessible/) want it to be legal. 
 
 Finally, I emphasise once again that this guided reading list cannot possibly include everything, and the vast majority of important literature had to be excluded. The reading list aims therefore only to serve as an exceedingly general overview, a springboard from which to jump deeper into the areas of neuroscience that each reader finds most exciting and relevant to their respective interests. So don’t be afraid to deviate from the list if you find more specialised reviews on topics that interest you! 
+
 
