@@ -32,8 +32,8 @@ Going forward, it will be helpful to have a broad overview of the computational 
 
 <p markdown='1' style="color:#515A5A">
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/Doya2000.png">
-
-<img align="right" width="250" height="235" src="../images/sysneuroai_images/doya2000_pic.png">
+<br>
+<img align="right" width="350" height="300" src="../images/sysneuroai_images/doya2000_pic.png">
 Current Opinion in Neurobiology 2000, 10:732–739<br>
 Kenji Doya<br>
 https://doi.org/10.1016/S0959-4388(00)00153-7<br>
@@ -60,7 +60,8 @@ Now familiar with the idea that different parts of the brain are performing diff
 [Toward an Integration of Deep Learning and Neuroscience](https://doi.org/10.3389/fncom.2016.00094)
 </h3>
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/marblestone.png">
-<img align="right" width="250" height="235" src="../images/sysneuroai_images/marblestone_pic.png">
+<br>
+<img align="right" width="350" height="325" src="../images/sysneuroai_images/marblestone_pic.png">
 <p markdown='1' style="color:#515A5A">
 Front. Comput. Neurosci., 14 September 2016
 <br>
