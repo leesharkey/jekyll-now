@@ -54,16 +54,18 @@ Associated talks: https://www.youtube.com/watch?v=Qgd3OK5DZWI
 Surya Ganguli, 2018
 <br>
 <br>
-<br>
-<br>
 _No abstract available_
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 </p>
 
 <br>
 <p markdown='1' style="text-align:center">---</p>
 <br>
-<br>
-
 Even though we do not currently have a complete functional picture of intelligence, one use studying the brain is to make a top-down attempt to break intelligence into component functions. First, we can study what we think are the prerequisite functions (“start-up software”) needed for general intelligence. We can then examine functions of general intelligence that build on the start-up software, such as model-building, understanding causality, or compositionality. This top-down approach is supported in the following review by Lake et al. (2015). Readers are particularly encouraged to read the full version and their responses in the Behavioral and Brain Sciences edition of the article (as opposed to the one on Arxiv) since the full version also includes lively responses from other prominent voices in the field that, while in agreement, tend to counterbalance Lake et al. with arguments for the bottom-up approach. Of particular mention for our purposes{link} are the responses by 
 * Botvinick et al.: Building machines that learn and think for themselves
 * Marblestone et al.: Understand the cogs to understand cognition
