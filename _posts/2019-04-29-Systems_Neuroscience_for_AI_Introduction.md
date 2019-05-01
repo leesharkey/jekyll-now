@@ -19,6 +19,9 @@ title: Systems Neuroscience for AI&#58; An Introductory Guide to the Literature
 * [The ‘Little Brain’, often forgotten: the Cerebellum]()
 * [The Cerebello-basal ganglia-thalamo-cortical system]()
 * [Conclusions]()
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 
 > “The brain is arguably still the only example that we have of something that approximates the kind of intelligence we’re trying to build, and so it seems like a good idea to pay some attention to how it works.”  
 > Matt Botvinick, Director of Neuroscience Research, DeepMind

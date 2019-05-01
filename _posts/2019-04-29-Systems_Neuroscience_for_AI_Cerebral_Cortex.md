@@ -62,8 +62,7 @@ This perspective describes predictive processing as a computational framework fo
 <br>
 <img align="right"  src="../images/sysneuroai_images/mrsic_pic.png"><br>
 </p>
-<br>
-<br>
+<p></p>
 <br>
 <br>
 <p markdown='1' style="text-align:center">---</p>
