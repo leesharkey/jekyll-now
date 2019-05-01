@@ -22,6 +22,8 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 * [The Cerebello-basal ganglia-thalamo-cortical system]()
 * [Conclusions]()
 
+<br><p markdown='1' style="text-align:center">---</p><br>
+
 One of the striking things about the cortex is that a brain region with such a stereotyped structural motif (further details in the reviews below) also appears to be instrumental in such varied functions as seeing, hearing, understanding language, speaking, moving, planning, making moral and economic decisions, and more. It is easy to see why the cortex attracts such scientific attention, aside from its being relatively easy to access experimentally. As such, this (most?) prized and multifarious brain region demands a more detailed treatment in the guide: this section will be longer and more discursive than most, and later we will also look in more detail at other areas of the cortex that interact with specific brain areas and systems. 
 
 ## Some advisory notes on the cortex
@@ -54,11 +56,12 @@ httks://doi.org/10.1016/j.neuron.2018.10.003 <br>
 <br>
 
 **Abstract**
-This perspective describes predictive processing as a computational framework for understanding cortical function in the context of emerging evidence, with a focus on sensory processing. We discuss how the predictive processing framework may be implemented at the level of cortical circuits and how its implementation could be falsified experimentally. Lastly, we summarize the general implications of predictive processing on cortical function in healthy and diseased states.
-<img align="right"  src="../images/sysneuroai_images/mrsic_pic.png"    >
-
+This perspective describes predictive processing as a computational framework for understanding cortical function in the context of emerging evidence, with a focus on sensory processing. We discuss how the predictive processing framework may be implemented at the level of cortical circuits and how its implementation could be falsified experimentally. Lastly, we summarize the general implications of predictive processing on cortical function in healthy and diseased states.<br>
+<img align="right"  src="../images/sysneuroai_images/mrsic_pic.png"><br>
 </p>
-
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 Prediction is probably not the only primary category of cortical computation, but being poorly understood, there are few reviews of current consensus toward which to point the inductee. We will not discuss the many other canonical cortical computations thought to be performed by the cortex (of which there is no universally recognised set) except briefly to highlight:
 * Sparsification: The by-now-well-known discovery that primary visual cortex cells form similar representations to those found using Independent Component Analysis (ICA) on natural image patches illustrates this well enough. Since biological neural networks often make use of winner-takes-all dynamics that enforce sparsity, I point the reader toward the winner-takes-all autoencoder (Makhzani & Frey 2015), which in my (qualitative) view demonstrates a powerful learning rule for the extraction of meaningful features. Veering back to the biology, Singer et al (2018) showed that sparsified and predictive representations of auditory signals are also consistent with those found in the primary auditory cortex. Since we have a lot of ground to cover, the straightforward argument that the cortex is computing sparse predictive representations needn’t be laboured with a review, though feel free to check out Singer et al (2018) if you seek more information on this point.
 * Computation of selectivity and computation of gain, as argued in Canonical computations of cerebral cortex. (Miller, 2016)
@@ -102,13 +105,16 @@ https://doi.org/10.1146/annurev-vision-111815-114456 <br>
 <br>
 <br>
 <br>
-
+<br>
+<br>
 <img align="right" width="400" height="350" src="../images/sysneuroai_images/priebe_pic.png">
 **Abstract**
 _The mechanisms underlying the emergence of orientation selectivity in the visual cortex have been, and continue to be, the subjects of intense scrutiny. Orientation selectivity reflects a dramatic change in the representation of the visual world: Whereas afferent thalamic neurons are generally orientation insensitive, neurons in the primary visual cortex (V1) are extremely sensitive to stimulus orientation. This profound change in the receptive field structure along the visual pathway has positioned V1 as a model system for studying the circuitry that underlies neural computations across the neocortex. The neocortex is characterized anatomically by the relative uniformity of its circuitry despite its role in processing distinct signals from region to region. A combination of physiological, anatomical, and theoretical studies has shed some light on the circuitry components necessary for generating orientation selectivity in V1. This targeted effort has led to critical insights, as well as controversies, concerning how neural circuits in the neocortex perform computations._
 </p>
 
-One of the arguments highlighted by Hassabis et al. (2016) and Ganguli (2018) is that neuroscience and AI provide a good source of priors for each other. A possible example of this is Costa et al. (2017), which attempts to map cortical circuitry onto a variant of the LSTM. While I don’t place a lot of probability on the specific thesis article being correct, it is a relevant and recent example of inter-field crosstalk and how the two fields can yield meaningful hypotheses for each other. 
+<br><p markdown='1' style="text-align:center">---</p><br>
+
+One of the arguments highlighted by Hassabis et al. (2016) and Ganguli (2018), presented in the 'Motivations' section{link}, is that neuroscience and AI provide a good source of priors for each other. A possible example of this is Costa et al. (2017), which attempts to map cortical circuitry onto a variant of the LSTM. While I don’t place a lot of probability on the specific thesis article being correct, it is a relevant and recent example of inter-field crosstalk and how the two fields can yield meaningful hypotheses for each other. 
 
 These are only the beginning of our encounters with the cortex. Being such an important area for both representing and interacting with the world, almost all future sections will involve the cortex and its interactions with other brain areas. Our next stop is at the cortex’s gateway, the brain part through which almost all input to the cortex must pass: the thalamus.
 
