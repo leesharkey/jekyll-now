@@ -2,7 +2,7 @@
 
 layout: post
 
-title:  Systems Neuroscience for AIn&#58; Conclusions
+title:  Systems Neuroscience for AI&#58; Conclusions
 
 ---
 
