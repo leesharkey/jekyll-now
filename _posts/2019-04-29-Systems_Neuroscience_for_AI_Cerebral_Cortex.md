@@ -2,7 +2,7 @@
 
 layout: post
 
-title: Systems Neuroscience for AI: The Cerebral Cortex - A Very Tangled Web 
+title: Systems Neuroscience for AI&#58; The Cerebral Cortex - A Very Tangled Web 
 
 ---
 
