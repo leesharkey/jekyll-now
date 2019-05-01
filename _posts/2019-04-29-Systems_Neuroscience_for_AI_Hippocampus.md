@@ -49,8 +49,10 @@ _between any spatial location (place in rodents or spatial view in primates) and
 <br>
 <br>
 Associated talks:
-* https://youtu.be/pLxMRI6ZOe0 
-* https://www.youtube.com/watch?v=dGVKayyxE34
+<ul>
+<li>https://youtu.be/pLxMRI6ZOe0</li>
+<li>https://www.youtube.com/watch?v=dGVKayyxE34</li>
+</ul>
 </p>
 
 

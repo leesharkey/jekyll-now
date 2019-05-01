@@ -39,12 +39,15 @@ https://doi.org/10.1016/j.neuron.2018.10.002<br>
 <br>
 **Abstract**<br>
 
-It is proposed that a cognitive map encoding the relationships between entities in the world supports flexible behavior, but the majority of the neural evidence for such a system comes from studies of spatial navigation. Recent work describing neuronal parallels 
+It is proposed that a cognitive map encoding the relationships between entities in the world supports flexible
 <img align="right" width="250" height="500" src="../images/sysneuroai_images/behrens_pic.png">
-between spatial and non-spatial behaviors has rekindled the notion of a systematic organization of knowledge across multiple domains. We review experimental evidence and theoretical frameworks that point to principles unifying these apparently disparate functions. These principles describe how to learn and use abstract, generalizable knowledge and suggest that map-like representations observed in a spatial context may be an instance of general coding mechanisms capable of organizing knowledge of all kinds. We highlight how artificial agents endowed with such principles exhibit flexible behavior and learn map-like representations observed in the brain. Finally, we speculate on how these principles may offer insight into the extreme generalizations, abstractions, and inferences that characterize human cognition.<br><br>
+ behavior, but the majority of the neural evidence for such a system comes from studies of spatial navigation. Recent work describing neuronal parallels between spatial and non-spatial behaviors has rekindled the notion of a systematic organization of knowledge across multiple domains. We review experimental evidence and theoretical frameworks that point to principles unifying these apparently disparate functions. These principles describe how to learn and use abstract, generalizable knowledge and suggest that map-like representations observed in a spatial context may be an instance of general coding mechanisms capable of organizing knowledge of all kinds. We highlight how artificial agents endowed with such principles exhibit flexible behavior and learn map-like representations observed in the brain. Finally, we speculate on how these principles may offer insight into the extreme generalizations, abstractions, and inferences that characterize human cognition.<br><br>
 
 </p>
 
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 You can find a related argument in Hawkins et al. (2019)(below) which leans even more heavily on the notion of movement, even in representational domains beyond spatial navigation. 
 
 <h3 markdown='1' style="color:#515A5A">
@@ -64,6 +67,9 @@ grid cell-like neurons may also be present in the neocortex. We propose that gri
 Associated talks: https://www.youtube.com/watch?v=zVGQeFFjhEk
 </p>
 
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 
 At risk of overloading the reader with an excess of spicy new takes on the entorhinal cortex-hippocampus system, I include the following review for completeness. While the above two reviews looked at the cortico-hippocampal representations with respect to semantics and space respectively, the next review examines the representations of the hippocampus with respect to time. Buszaki argues here that the hippocampus (in conjunction with the entorhinal cortex) is best viewed as a pattern generator, responsible for “producing sequential content free structure to access and organize sensory experiences distributed across cortical modules.”
 
@@ -84,6 +90,9 @@ relative to an internally defined rate-of-change. While neuronal correlations wi
 
 </p>
 
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 This is far from the limit of interesting literature on cortico-hippocampal interactions, but brevity forces us to move on. Before we do, I highlight in passing
 * **The Successor Representation: Its Computational Logic and Neural Substrates (Gershman 2018)** which gives an account of an emerging view of the specific types of representation encoded in the hippocampus, the successor representation. 
 * **Episodic Memory and Beyond: The Hippocampus and Neocortex in Transformation (Moscovitch et al. 2016)** which looks at the topic from a wider range of views than in the above reviews, primarily from the psychological perspective. 
