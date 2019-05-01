@@ -13,7 +13,7 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 * [Motivation: why should we pay attention to the brain for AI?]()
 * [Overviews: What, broadly speaking, is the brain computing?]() 
 * [The Cerebral Cortex: A Very Tangled Web]()
-* [The Thalamus: More than just Central Station]()(This page)
+* [The Thalamus: More than just Central Station]() (This page)
 * [The Hippocampus: A Less Tangled Web]()
 * [Cortico-hippocampal interactions]()
 * [Reinforcement Learning with the Basal Ganglia and prefrontal cortex]()
@@ -30,11 +30,6 @@ I must confess, I became interested in the thalamus for the wrong reasons. Durin
 
 Although I gave up on seeking answers to the hard problem of consciousness (at least until we have machines that are better able to think about such issues…), my experience left me with a strong sympathy toward the view that, if you want to understand cortical computation, you cannot ignore the thalamus. Thus it remains a surprise to me that so much cortical computation research ignores the role of the thalamus. Thalamus researchers, lamenting its neglect, often cite that the textbook view is that it is little more than a relay station (I confirmed this is true, at least for one major 2004 neuroscience textbook, which pays lip service to the idea that the thalamus has more complex role than current consensus, but only ever discusses its function as a relay). Despite this neglect, as we will see in the reviews below that an emerging view of thalamocortical computation is that the two are basically inseparable, especially for goal-directed cognition. 
 
- 85 [Predictive Processing: A Canonical Cortical Computation.](httks://doi.org/10.1016/j.neuron.2018.10.0    03)<img align="right" width="250" height="235" src="../images/sysneuroai_images/kellerandmrsicFl.png"    >
- 86 </h3>
- 87 <p markdown='1' style="color:#515A5A">
-
-
 <h3 markdown='1' style="color:#515A5A">
 [Functioning of Circuits Connecting Thalamus and Cortex.](https://doi.org/10.1002/cphy.c160032)
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/sherman2017.png"    >
@@ -43,16 +38,21 @@ Although I gave up on seeking answers to the hard problem of consciousness (at l
 Compr Physiol. 2017 Mar 16;7(2):713-739.<br>
 Murray S. Sherman <br>
 https://doi.org/10.1002/cphy.c160032 <br>
+<br>
+<br>
+<br>
+<img align="right" width="400" height="350" src="../images/sysneuroai_images/sherman_pic.png">
+
 
 **Abstract**
-_Glutamatergic pathways in thalamus and cortex are divided into two distinct classes: driver, which carries the main information between cells, and modulator, which modifies how driver inputs function. Identifying driver inputs helps to reveal functional computational circuits, and one set of such circuits identified by this approach are cortico-thalamo-cortical (or transthalamic corticocortical) circuits. This, in turn, leads to the conclusion that there are two types of thalamic relay: first order nuclei (such as the lateral geniculate nucleus) that relay driver input from a subcortical source (i.e., retina), and higher order nuclei (such as the pulvinar) which are involved in these transthalamic pathways by relaying driver input from layer 5 of one cortical area to another. This thalamic division is also seen in other sensory pathways and beyond these so that most of thalamus by volume consists of higher-order relays. Many, and perhaps all, direct driver connections between cortical areas are paralleled by an indirect cortico-thalamo-cortical (transthalamic) driver route involving higher order thalamic relays. Such thalamic relays represent a heretofore unappreciated role in cortical functioning, and this assessment challenges and extends conventional views regarding both the role of thalamus and mechanisms of corticocortical communication. Finally, many and perhaps the vast majority of driver inputs relayed through thalamus arrive via branching axons, with extrathalamic targets often being subcortical motor centers. This raises the possibility that inputs relayed by thalamus to cortex also serve as efference copies, and this may represent an important feature of information relayed up the cortical hierarchy via transthalamic circuits._ <img align="right" width="250" height="235" src="../images/sysneuroai_images/sherman_pic.png">
-</p>
+_Glutamatergic pathways in thalamus and cortex are divided into two distinct classes: driver, which carries the main information between cells, and modulator, which modifies how driver inputs function. Identifying driver inputs helps to reveal functional computational circuits, and one set of such circuits identified by this approach are cortico-thalamo-cortical (or transthalamic corticocortical) circuits. This, in turn, leads to the conclusion that there are two types of thalamic relay: first order nuclei (such as the lateral geniculate nucleus) that relay driver input from a subcortical source (i.e., retina), and higher order nuclei (such as the pulvinar) which are involved in these transthalamic pathways by relaying driver input from layer 5 of one cortical area to another. This thalamic division is also seen in other sensory pathways and beyond these so that most of thalamus by volume consists of higher-order relays. Many, and perhaps all, direct driver connections between cortical areas are paralleled by an indirect cortico-thalamo-cortical (transthalamic) driver route involving higher order thalamic relays. Such thalamic relays represent a heretofore unappreciated role in cortical functioning, and this assessment challenges and extends conventional views regarding both the role of thalamus and mechanisms of corticocortical communication. Finally, many and perhaps the vast majority of driver inputs relayed through thalamus arrive via branching axons, with extrathalamic targets often being subcortical motor centers. This raises the possibility that inputs relayed by thalamus to cortex also serve as efference copies, and this may represent an important feature of information relayed up the cortical hierarchy via transthalamic circuits._ </p>
 
 <br>
 <p markdown='1' style="text-align:center">---</p>
 <br>
 Astute readers will remember the discussion in Marblestone et al. (2017) ‘Toward an Integration of Deep Learning and Neuroscience’:
 > Models like (O'Reilly and Frank, 2006; Stocco et al., 2010; Terrence Stewart, 2010) propose further that the basal ganglia can gate not just the transfer of information from motor cortex to downstream actuators, but also the transfer of information between cortical areas [by modulation of the thalamus]. 
+
 The next review examines possible consequences if such models are true, looking closely at the role the thalamus plays in cognition and attention. 
 <h3 markdown='1' style="color:#515A5A">
 [Thalamic functions in distributed cognitive control](https://doi.org/10.1038/s41593-017-0020-1)<img align="right" width="250" height="235" src="../images/sysneuroai_images/halassa.png">
@@ -63,7 +63,7 @@ Michael M. Halassa & Sabine Kastner <br>
 https://doi.org/10.1038/s41593-017-0020-1 <br>
 
 **Abstract**
-_Cognition can be conceptualized as a set of algorithmic control functions whose real-time deployment determines how an organism stores and uses information to guide thought and action. A subset of these functions is required for goal-directed selection and amplification of sensory signals—broadly referred to as attention—and for its flexible control and its interaction with processes such as working memory and decision making. While the contribution of recurrent cortical microcircuits to cognition has been extensively studied, the role of the thalamus is just beginning to be elucidated. Here we highlight recent studies across rodents and primates showing how thalamus contributes to attentional control. In addition to high-fidelity information relay to or between cortical regions, thalamic circuits shift and sustain functional interactions within and across cortical areas. This thalamic process enables rapid coordination of spatially segregated cortical computations, thereby constructing task-relevant functional networks. Because such function may be critical for cognitive flexibility, clarifying its mechanisms will likely expand our basic understanding of cognitive control and its perturbation in disease._ <img align="right" width="250" height="235" src="../images/sysneuroai_images/halassa_pic.png">
+_Cognition can be conceptualized as a set of algorithmic control functions whose real-time deployment determines how an organism stores and uses information to guide thought and action. A subset of these functions is required for goal-directed selection and amplification of sensory signals—broadly referred to as attention—and for its flexible control and its interaction with processes such as working memory and decision making. While the contribution of recurrent cortical microcircuits to cognition has been extensively studied, the role of the thalamus is just beginning to be elucidated. Here we highlight recent studies across rodents and primates showing how thalamus contributes to attentional control. In addition to high-fidelity information relay to or between cortical regions, thalamic circuits shift and sustain functional interactions within and across cortical areas. This thalamic process enables rapid coordination of spatially segregated cortical computations, thereby constructing task-relevant functional networks. Because such function may be critical for cognitive flexibility, clarifying its mechanisms will likely expand our basic understanding of cognitive control and its perturbation in disease._ <img align="right" width="350" height="400" src="../images/sysneuroai_images/halassa_pic.png">
 </p>
 <br>
 <p markdown='1' style="text-align:center">---</p>
