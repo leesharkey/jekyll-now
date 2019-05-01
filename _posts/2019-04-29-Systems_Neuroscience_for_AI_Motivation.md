@@ -87,3 +87,5 @@ _Recent progress in artificial intelligence has renewed interest in building sys
 <img align="right" src="../images/sysneuroai_images/lake_pic.png">
 Associated talks: https://www.youtube.com/watch?v=7ROelYvo8f0 
 </p>
+
+<p markdown='1' style="text-align:right">_Next post_: [Overviews: What, broadly speaking, is the brain computing?]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Overviews/)</p>
