@@ -46,6 +46,9 @@ The hippocampus and the orbitofrontal cortex (OFC) both have important roles in 
 </p>
 
 
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 
 We saw in the above review that the OFC does not directly project to the hippocampus. Yet we still need a way to choose the correct hippocampal neurons to stimulate in order to recall or imagine appropriate goal-relevant memories or concepts. Indeed, a human may have a new idea and then immediately proceed to build new ideas on top of it. It isn’t clear that such multi-step feats of working memory rely solely on the cortex or corticothalamic loops; it is likely that we build on newly conceived concepts that are temporarily stored in the hippocampus. This is the first of two gaps that I feel were left by the earlier Rolls (2018) review: it does not address how memories may be selected as part of an active, goal-directed process; it only accounts for how patterns of activity in the entorhinal cortex might get stored in the hippocampus and how parts of that pattern might be sufficient to activate the whole pattern (pattern completion) - the influence of goals is unclear. Clearly, goal-directed access of hippocampal representations need involve the prefrontal cortex, but which part? And how is such influence mediated? In the last two decades, a system involving a particular nucleus of the thalamus, the nucleus reuniens, has been gathering attention on account of its mediation of this process. 
 
@@ -64,6 +67,9 @@ Despite decades of research, the neural mechanisms of spatial working memory rem
 </p>
 
 
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 
 Before considering even more global views of telencephalic function, I’ll make a passing algorithmic note on which hippocampal memories get recalled now that we’re a little more familiar with the relevant machinery. Recent experiments by Mattar and Daw (2018) suggest that there are as few as two major desiderata of which memories get recalled: gain (the increase in discounted future reward expected from a policy change at the memorised state in question) and need (how likely that memorised state is to be visited again in future given its current policy). This echoes historical RL models as well as more recent deep RL models (such as Schaul et al. 2015), which use reward-dependent criteria for memory replay. The experiments of Matter and Daw suggests that model-based prioritisation of memories based on these two criteria in particular may prove a fruitful avenue of research for deep RL, which to my knowledge is yet to be explored. 
 
@@ -81,11 +87,14 @@ https://doi.org/10.1016/j.tics.2016.05.004<br>
 **Abstract**<br>
 
 We update complementary learning systems (CLS) theory, which holds that intelligent agents must possess two learning systems, instantiated in mammalians in neocortex and hippocampus. 
-<img align="right" width="350" height="300" src="../images/sysneuroai_images/river.png">
+<img align="right" width="350" height="300" src="../images/sysneuroai_images/kumaran_pic.png">
 The first gradually acquires structured knowledge representations while the second quickly learns the specifics of individual experiences. We broaden the role of replay of hippocampal memories in the theory, noting that replay allows goal-dependent weighting of experience statistics. We also address recent challenges to the theory and extend it by showing that recurrent activation of hippocampal traces can support some forms of generalization and that neocortical learning can be rapid for information that is consistent with known structure. Finally, we note the relevance of the theory to the design of artificial intelligent agents, highlighting connections between neuroscience and machine learning.<br><br>
 
 </p>
 
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 Now that we have a better grasp of schema learning on a computational level, we would ideally look at the algorithms used to build them in the brain. But this is currently lacking. Hence, we next take a look at the biology of schemas, which might eventually help bridge the gap to the algorithmic level. 
 
 <h3 markdown='1' style="color:#515A5A">
@@ -104,6 +113,10 @@ Schemas are superordinate knowledge structures that reflect abstracted commonali
  processing, as they get populated with specific informational instances (schema instantiation). Instantiated schemas, in turn, can enhance or distort mnemonic processing from the outset (at encoding), impact offline memory transformation and accelerate neocortical integration. Recent studies demonstrate distinctive neurobiological processes underlying schema-related learning. Interactions between the ventromedial prefrontal cortex (vmPFC), hippocampus, angular gyrus (AG), and unimodal associative cortices support context-relevant schema instantiation and schema mnemonic effects. The vmPFC and hippocampus may compete (as suggested by some models) or synchronize (as suggested by others) to optimize schema-related learning depending on the specific operationalization of schema memory. This highlights the need for more precise definitions of memory schemas.<br><br>
 </p>
 
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
+
 Readers seeking further biological details on schema are pointed toward Ghosh and Gilboa (2016) for detailed and historical accounts of memory schema. For an interesting, but far-from-consensus view on the role of episodic memory for long term temporal credit assignment in the brain, see Lillicrap and Santoro (2019); it takes aim at an algorithmic account of the interaction between the hippocampus and cortex and explores the relevance of backpropagation-through-time in this process. 
 
 DeepMind in particular is pushing hard along lines that are consistent with episodic memory consolidation and memory schema. Before we move away from the telencephalon, it’s worth exploring a few more of the architectures and machine learning methods that have been developed there that are linked to schemas, memory consolidation, episodic memory, and reinforcement learning.  
@@ -120,6 +133,11 @@ Finally, although we have seen that the hippocampus enables imagination of new e
 
 We have partially localised functions such as imagination, working memory, attention, planning, memory consolidation, abstract concepts, and more to the telencephalon, but the AI-versed reader will be well aware that the works mentioned above only scratch the surface of AI research that aim to tackle these functions. The above brief exploration of such works - with particular focus on those from DeepMind - is intended only to illustrate the utility of organising our notions of these functions around the sole known example of general intelligence. 
 
+
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
+
 All this brain, and what is it for? If you believe the ‘motor chauvinists’, the entire purpose of the brain is for movement (teleologically speaking, of course). Whether or not it’s true, we turn to how the brain might select actions. A gentle video introduction can be found here, which focuses primarily on the role of the basal ganglia. For a more detailed look at how the brain areas that we have discussed in previous sections interact with the basal ganglia to inform action selection, we move to our next review. 
 <h3 markdown='1' style="color:#515A5A">
 An Integrated Model of Action Selection: Distinct Modes of Cortical Control of Striatal Decision Making. 
@@ -133,9 +151,9 @@ doi:10.1146/annurev-psych-010418-102824 <br>
 <br>
 **Abstract**<br>
 
-Making decisions in environments with few choice options is easy. We select the action that results in the most valued outcome. Making decisions in more complex environments, where the same action can produce different outcomes in different conditions, is much
+Making decisions in environments with few choice options is easy. We select the action that results in the most valued outcome. Making decisions in more complex 
 <img align="right" width="400" height="300" src="../images/sysneuroai_images/sharpe_pic.png">
- harder. In such circumstances, we propose that accurate action selection relies on top-down control from the prelimbic and orbitofrontal cortices over striatal activity through distinct thalamostriatal circuits. We suggest that the prelimbic cortex exerts direct influence over medium spiny neurons in the dorsomedial striatum to represent the state space relevant to the current environment. Conversely, the orbitofrontal cortex is argued to track a subject's position within that state space, likely through modulation of cholinergic interneurons. <br><br>
+environments, where the same action can produce different outcomes in different conditions, is much harder. In such circumstances, we propose that accurate action selection relies on top-down control from the prelimbic and orbitofrontal cortices over striatal activity through distinct thalamostriatal circuits. We suggest that the prelimbic cortex exerts direct influence over medium spiny neurons in the dorsomedial striatum to represent the state space relevant to the current environment. Conversely, the orbitofrontal cortex is argued to track a subject's position within that state space, likely through modulation of cholinergic interneurons. <br><br>
 </p>
 
 <p markdown='1' style="text-align:right">_Next post_: [The ‘Little Brain’, often forgotten: the Cerebellum]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cerebellum/)</p>
