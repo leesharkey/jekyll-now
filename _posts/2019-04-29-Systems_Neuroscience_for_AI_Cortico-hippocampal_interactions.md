@@ -2,7 +2,7 @@
 
 layout: post
 
-title:  The Hippocampus&#58; A Less Tangled Web 
+title:  Cortico-hippocampal Interactions 
 
 ---
 
@@ -26,38 +26,70 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-
-There is a good reason Demis Hassabis chose to study the hippocampus for his doctoral thesis: the hippocampus is implicated in a striking array of cognitive phenomena. Not only is it thought to enable one shot learning, but Hassabis et al. also rightly predicted its role in imagination of new experiences (Hassabis et al. 2007). New experiences are not so different from new concepts, and it happens that the hippocampal cells appear to be able to represent semantically meaningful concepts such as “Jennifer Aniston” or of particular places. It is not a major leap, therefore, to suppose that the hippocampus also has a role in the imagination not just of new experiences, but also of new concepts (later showed by Kumaran et al. 2009), a function that is central to human-level creative intelligence. The hippocampus has also been found to implement a form of ‘experience replay’ in a way that improved performance in a goal-directed learning task and in a way that predicted the path the rat subsequently navigated. It seems clear that the hippocampus is involved in the manipulation of an internal world model. Before dissecting that claim, we need to take a look at the hippocampus in isolation. 
-
-In contrast to the cortex, the hippocampus is a comparatively well understood part of the brain on the implementational, algorithmic, and computational level. Of course, important details continue to be discovered, but it is probably fair to say that are less confused about what is happening in the hippocampus than in the cortex. As discussed in the reviews, Marr provided the canonical view of the hippocampus’s computations: pattern separation (through random orthogonal projection) and pattern completion (through autoassociation). We will see in the reviews that it might also be viewed as a content addressable memory.
-
-Edmund Rolls has produced a long series of incrementally updating reviews that are the among the most illuminative introductions to the computations of the hippocampus. We will return to its possible role in imagination of new concepts in the section on the interaction between the hippocampus and the cortex. 
+The combined discovery of place cells and grid cells got the judges at the Karolinska Institute so excited that it was the subject of the 2014 Nobel prize in physiology or medicine. As a refresher, place cells are cells in the hippocampus that individually activate if the animal (a rat in the original experiment) is in a particular location. Grid cells are cells that individually activate in multiple places, defined in a hexagonal grid-like pattern. One of my favourite single findings in computational neuroscience is that non-negative PCA performed on place cell activations yields ‘nonnegative principal components’ that have a hexagonal grid-like spatial pattern (Dordek et al. 2016). Cueva and Wei (2018) and DeepMind (Banino et al. 2018)(or see the blog post for a concise overview) independently replicated this observation in artificial agents, the latter arguing that this representation enables extremely efficient vector-based navigation. These findings have led to some interesting theories of cognition that take aim at a large scale explanation of the corticohippocampal system, including the following perspective from Behrens et al. (2018)(below) that we build grid-cell like codes for abstract, conceptual spaces. 
 
 <h3 markdown='1' style="color:#515A5A">
-The storage and recall of memories in the hippocampo-cortical system <img align="right" width="250" height="235" src="../images/sysneuroai_images/rolls2018.png">
+What Is a Cognitive Map? Organizing Knowledge for Flexible Behavior
+<img align="right" width="250" height="235" src="../images/sysneuroai_images/behrens2018.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
-Cell and Tissue Research (2018) 373:577–604<br>
-Edmund T. Rolls<br>
-https://doi.org/10.1007/s00441-017-2744-3 <br>
+Volume 100, Issue 2, 24 October 2018, Pages 490-509<br>
+Timothy Behrens, Timothy Muller, James Whittington, Shirley Mark, Alon Baram, Kimberly Stachenfeld, and Zeb Kurth-Nelson<br>
+https://doi.org/10.1016/j.neuron.2018.10.002<br>
 <br>
-**Abstract**
+**Abstract**<br>
+
+It is proposed that a cognitive map encoding the relationships between entities in the world supports flexible behavior, but the majority of the neural evidence for such a system comes from studies of spatial navigation. Recent work describing neuronal parallels 
+<img align="right" width="250" height="500" src="../images/sysneuroai_images/behrens_pic.png">
+between spatial and non-spatial behaviors has rekindled the notion of a systematic organization of knowledge across multiple domains. We review experimental evidence and theoretical frameworks that point to principles unifying these apparently disparate functions. These principles describe how to learn and use abstract, generalizable knowledge and suggest that map-like representations observed in a spatial context may be an instance of general coding mechanisms capable of organizing knowledge of all kinds. We highlight how artificial agents endowed with such principles exhibit flexible behavior and learn map-like representations observed in the brain. Finally, we speculate on how these principles may offer insight into the extreme generalizations, abstractions, and inferences that characterize human cognition.<br><br>
+
+</p>
+
+You can find a related argument in Hawkins et al. (2019)(below) which leans even more heavily on the notion of movement, even in representational domains beyond spatial navigation. 
+
+<h3 markdown='1' style="color:#515A5A">
+A Framework for Intelligence and Cortical Function Based on Grid Cells in the Neocortex
+<img align="right" width="250" height="235" src="../images/sysneuroai_images/hawkins2019.png">
+</h3>
+<p markdown='1' style="color:#515A5A">
+Front. Neural Circuits, 11 January 2019<br>
+Jeff Hawkins, Marcus Lewis, Mirko Klukas, Scott Purdy and Subutai Ahmad<br>
+https://doi.org/10.3389/fncir.2018.00121<br>
 <br>
-A quantitative computational theory of the operation of the hippocampus as an episodic memory system is described. The CA3 system operates as a single attractor or autoassociation network (1) to enable rapid one-trial associations 
-<img align="right" width="450" height="330" src="../images/sysneuroai_images/rolls_pic.png">
-between any spatial location (place in rodents or spatial view in primates) and an object or reward and (2) to provide for completion of the whole memory during recall from any part. The theory is extended to associations between time and object or reward to implement temporal order memory, which is also important in episodic memory. The dentate gyrus performs pattern separation by competitive learning to create sparse representations producing, for example, neurons with place-like fields from entorhinal cortex grid cells. The dentate granule cells generate, by the very small number of mossy fibre connections to CA3, a randomizing pattern separation effect that is important during learning but not recall and that separates out the patterns represented by CA3 firing as being very different from each other. This is optimal for an unstructured episodic memory system in which each memory must be kept distinct from other memories. The direct perforant path input to CA3 is quantitatively appropriate for providing the cue for recall in CA3 but not for learning. The CA1 recodes information from CA3 to set up associatively learned backprojections to the neocortex to allow the subsequent retrieval of information to the neocortex, giving a quantitative account of the large number of hippocampo-neocortical and neocortical-neocortical backprojections. Tests of the theory including hippocampal subregion analyses and hippocampal NMDA receptor knockouts are described and support the theory.
-<br>
-<br>
-Associated talks:
-* https://youtu.be/pLxMRI6ZOe0 
-* https://www.youtube.com/watch?v=dGVKayyxE34
+**Abstract**<br>
+
+How the neocortex works is a mystery. In this paper we propose a novel framework for understanding its function. Grid cells are neurons in the entorhinal cortex that represent the location of an animal in its environment. Recent evidence suggests that 
+<img align="right" width="500" height="235" src="../images/sysneuroai_images/hawkins_pic.png">
+grid cell-like neurons may also be present in the neocortex. We propose that grid cells exist throughout the neocortex, in every region and in every cortical column. They define a location-based framework for how the neocortex functions. Whereas grid cells in the entorhinal cortex represent the location of one thing, the body relative to its environment, we propose that cortical grid cells simultaneously represent the location of many things. Cortical columns in somatosensory cortex track the location of tactile features relative to the object being touched and cortical columns in visual cortex track the location of visual features relative to the object being viewed. We propose that mechanisms in the entorhinal cortex and hippocampus that evolved for learning the structure of environments are now used by the neocortex to learn the structure of objects. Having a representation of location in each cortical column suggests mechanisms for how the neocortex represents object compositionality and object behaviors. It leads to the hypothesis that every part of the neocortex learns complete models of objects and that there are many models of each object distributed throughout the neocortex. The similarity of circuitry observed in all cortical regions is strong evidence that even high-level cognitive tasks are learned and represented in a location-based framework.<br><br>
+Associated talks: https://www.youtube.com/watch?v=zVGQeFFjhEk
 </p>
 
 
-Although among my favourite reviews, we will address a couple of shortcomings of the Rolls (2018) review in the section on the corticothalamic-basal ganglia-hippocampal system (or, more succinctly, ‘the telencephalon’). For now, we turn to some of the AI architectures inspired by the system. 
+At risk of overloading the reader with an excess of spicy new takes on the entorhinal cortex-hippocampus system, I include the following review for completeness. While the above two reviews looked at the cortico-hippocampal representations with respect to semantics and space respectively, the next review examines the representations of the hippocampus with respect to time. Buszaki argues here that the hippocampus (in conjunction with the entorhinal cortex) is best viewed as a pattern generator, responsible for “producing sequential content free structure to access and organize sensory experiences distributed across cortical modules.”
 
-A large number Memory Augmented Neural Networks (MANNs) have been proposed to circumvent some of the shortcomings of traditional neural networks, especially catastrophic forgetting and low memory capacity. One recent example is Kaiser et al (2017), who combine a differentiable memory module with several seq-to-seq models for one shot learning. There already exists at least one good blog post comparing the Differentiable Neural Computer (DNC) and biological memory, so I will not discuss that angle in detail here, except to emphasise one crucial difference between the DNC and hippocampus. Like traditional deep networks, the parameters of the memory in the DNC require training by backpropagation and the system must learn when and what to write to memory, which can initially be slow and unstable (It should be noted, however, that once they are trained, writing may be fast). Learning in the hippocampus appears to be less parametric, less dependent on what is already ‘written’ there. Therefore, it is plausible that non-parametric architectures such as the episodic controller (Blundell et al. 2016) or neural cache (Grave et al. 2016) (a variant of which was used in Rae et al. 2018, which employed a Hebbian learning rule, a biologically plausible learning rule not often seen in modern deep learning!) might map more easily onto what we know about hippocampal function. Ultimately, however, the fidelity of the mapping is secondary to functional requirements. We will return to these architectures (and others) later when treating the interactions between the hippocampus, cortex, thalamus, and basal ganglia. 
+<h3 markdown='1' style="color:#515A5A">
+Space and Time: The Hippocampus as a Sequence Generator.
+<img align="right" width="250" height="235" src="../images/sysneuroai_images/buzsaki.png">
+</h3>
+<p markdown='1' style="color:#515A5A">
+Trends Cogn Sci. 2018 Oct;22(10):853-869.<br>
+Buzsáki G, Tingley D.<br>
+https://doi.org/10.1016/j.tics.2018.07.006<br>
+<br>
+**Abstract**<br>
 
-Now that we’ve built an understanding of the roles of the corticothalamic system and hippocampus in isolation, we can start to explore in detail some of the exciting ways in which they might interact. 
+Neural computations are often compared to instrument-measured distance or duration, and such relationships are interpreted by a human observer. However, neural circuits do not depend on human-made instruments but perform computations 
+<img align="right" width="450" height="275" src="../images/sysneuroai_images/buzsaki_pic.png">
+relative to an internally defined rate-of-change. While neuronal correlations with external measures, such as distance or duration, can be observed in spike rates or other measures of neuronal activity, what matters for the brain is how such activity patterns are utilized by downstream neural observers. We suggest that hippocampal operations can be described by the sequential activity of neuronal assemblies and their internally defined rate of change without resorting to the concept of space or time.<br><br>
 
-<p markdown='1' style="text-align:right">_Next post_: [Cortico-hippocampal interactions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cortico-hippocampal_interactions/)</p>
+</p>
+
+This is far from the limit of interesting literature on cortico-hippocampal interactions, but brevity forces us to move on. Before we do, I highlight in passing
+* **The Successor Representation: Its Computational Logic and Neural Substrates (Gershman 2018)** which gives an account of an emerging view of the specific types of representation encoded in the hippocampus, the successor representation. 
+* **Episodic Memory and Beyond: The Hippocampus and Neocortex in Transformation (Moscovitch et al. 2016)** which looks at the topic from a wider range of views than in the above reviews, primarily from the psychological perspective. 
+* **Approximate Hubel-Wiesel Modules and the Data Structures of Neural Computation (Leibo et al. 2015)**, which is an attempt to unify, on the computational and algorithmic level, the computations of the hippocampus and the neocortex. 
+
+If the hippocampus is where we instantiate or at least organise our imagination and novel thoughts as well as our recall, how do we choose what to call into imagination or to recall? We’re approaching a systems level of goal-directed behaviour, where we might consider ‘memory selection’ or ‘concept-for-imagination selection’ as a behaviour that is optimised by some policy. Before tackling the system that coordinates these functions (where we’ll look at the combination of the hippocampus, the thalamus, and the cortex) we should first address the system that coordinates goal-directed behaviour: the reinforcement learning system. 
+
+
+<p markdown='1' style="text-align:right">_Next post_: [Reinforcement Learning with the Basal Ganglia and prefrontal cortex]({{ site.baseurl }}/Systems_Neuroscience_for_AI_RL_with_BG_and_PFC/)</p>
