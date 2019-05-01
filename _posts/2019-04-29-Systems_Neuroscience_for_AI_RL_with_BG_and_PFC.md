@@ -44,6 +44,9 @@ https://doi.org/10.1038/s42256-019-0025-4<br>
 There is and has been a fruitful flow of concepts and ideas between studies of learning in biological and artificial systems. Much early work that led to the development of reinforcement learning (RL) algorithms for artificial systems was inspired by learning rules first developed in biology by Bush and Mosteller, and Rescorla and Wagner. More recently, temporal-difference RL, developed for learning in artificial agents, has provided a foundational framework for interpreting the activity of dopamine neurons. In this Review, we describe state-of-the-art work on RL in biological and artificial agents. We focus on points of contact between these disciplines and identify areas where future research can benefit from information flow between these fields. Most work in biological systems has focused on simple learning problems, often embedded in dynamic environments where flexibility and ongoing learning are important, similar to real-world learning problems faced by biological systems. In contrast, most work in artificial agents has focused on learning a single complex problem in a static environment. Moving forward, work in each field will benefit from a flow of ideas that represent the strengths within each discipline.<img align="right" src="../images/sysneuroai_images/neftci_pic.png"><br><br>
 </p>
 
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 
 One of my frustrations in my undergraduate exposure to the prefrontal cortex was an over-reliance on the concept of “executive function”, with no accompanying explanation of how the brain actually performed it. So much else was at least partially explained - the sensory hierarchy, the mechanisms of episodic memory, the motor system; but executive function was left undissected, thus remaining strongly homuncular. I was therefore pleased to read the following explanatory offering from Wang et al. (2018), whose essential argument is that the PFC, the primary locus of ‘executive function’, is a meta-reinforcement learning system. Although it is not strictly speaking a review article, I include it because, in my view, it provides a compelling case for a unifying functional principle of a brain area that we consider responsible for much of intelligent behaviour in humans. 
 
@@ -59,11 +62,15 @@ https://doi.org/10.1038/s41593-018-0147-8<br>
 
 **Abstract**<br>
 Over the past 20 years, neuroscience research on reward-based learning has converged on a canonical model, under which
-<img align="right" width="300" height="235" src="../images/sysneuroai_images/wang_pic.png">
+<img align="right" width="330" height="235" src="../images/sysneuroai_images/wang_pic.png">
  the neurotransmitter dopamine ‘stamps in’ associations between situations, actions and rewards by modulating the strength of synaptic connections between neurons. However, a growing number of recent findings have placed this standard model under strain. We now draw on recent advances in artificial intelligence to introduce a new theory of reward-based learning. Here, the dopamine system trains another part of the brain, the prefrontal cortex, to operate as its own free-standing learning system. This new perspective accommodates the findings that motivated the standard model, but also deals gracefully with a wider range of observations, providing a fresh foundation for future research. <br><br>
 
 Associated talk: https://www.youtube.com/watch?v=LnXgs73OUjE
 </p>
+
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 
 Following Wang et al. (2018)(above), Dasgupta et al. (2019) make the strong but exciting claim that such meta-reinforcement learning is in fact capable of causal reasoning - an indication of the large potential consequences of the above work for AI systems. We will visit further implications of Wang et al. (2018) in the next section on the telencephalon{link}. 
 
