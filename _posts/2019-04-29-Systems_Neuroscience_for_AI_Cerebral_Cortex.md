@@ -58,10 +58,8 @@ httks://doi.org/10.1016/j.neuron.2018.10.003 <br>
 <br>
 
 **Abstract**
-_This perspective describes predictive processing as a computational framework for understanding cortical function in the context of emerging evidence, with a focus on sensory processing. We discuss how the predictive processing framework may be implemented at the_
+_This perspective describes predictive processing as a computational framework for understanding cortical function in the context of emerging evidence, with a focus on sensory processing. We discuss how the predictive processing framework may be implemented at the level of cortical circuits and how its implementation could be falsified experimentally. Lastly, we summarize the general implications of predictive processing on cortical function in healthy and diseased states._
 <img align="right"  src="../images/sysneuroai_images/mrsic_pic.png"><br>
- _level of cortical circuits and how its implementation could be falsified experimentally. Lastly, we summarize the general implications of predictive processing on cortical function in healthy and diseased states._
-<br>
 </p>
 <p></p>
 <br>
@@ -85,6 +83,7 @@ We start with a few assumptions:
   - Computational inaccuracies in longer connections due to signal latency or degradation,
   - The difficulty of genetically guiding a longer developmental path
 * Lastly, assume that the above costs cannot be kept small by placing all computational models into a point or small sphere due to spatial constraints; they must exist on a single folded sheet. 
+
 The result is that computational units that are most useful for predicting (or representing) a particular feature will be found closest to that feature. In general, the more useful for prediction (or representation) a feature is, the more likely it is that it be found nearby to the computational unit predicting (or representing) that feature. With these assumptions, and with knowledge of the basic inputs to the cortex (from the other brain areas and from the senses, which we will explore in the reviews in this guide) and its outputs, the functional topography of the cortex makes a lot of sense (I’m informed, with recommendation, that similar arguments to these are detailed in the book Principles of Neural Design (2015), although I have not read the book myself). Below, some specific examples are given: 
 
 * Topographic maps in primary sensory or motor cortices appear to maintain the topology of the inputs or outputs according to the above principles. For example, retinotopic maps are useful because of spatial locality of the input data - predicting/representing one area of the retina can easily make use of information in adjacent areas. Similarly for the somatosensory homunculus. Another example: the primary motor cortex locates the hand and head beside each other since these two body parts commonly require coordination together. Since somatosensory information is useful for movement, the somatosensory and motor homunculi tend to map to each other across the postcentral sulcus. (picture)
@@ -109,9 +108,9 @@ https://doi.org/10.1146/annurev-vision-111815-114456 <br>
 <br>
 **Abstract**
 
-_The mechanisms underlying the emergence of orientation selectivity in the visual cortex have been, and continue to be, the subjects of intense scrutiny. Orientation selectivity reflects a dramatic change in the representation of the visual world: Whereas afferent thalamic neurons are generally orientation insensitive, neurons in the primary visual cortex (V1) are extremely sensitive to stimulus orientation. This profound change in the receptive field structure along the visual pathway has positioned V1 as a model system for studying the_
+_The mechanisms underlying the emergence of orientation selectivity in the visual cortex have been, and continue to be, the subjects of intense scrutiny. Orientation selectivity reflects a dramatic change in the representation of the visual world: Whereas afferent thalamic neurons are generally orientation insensitive, neurons_
 <img align="right" width="400" height="350" src="../images/sysneuroai_images/priebe_pic.png">
- _circuitry that underlies neural computations across the neocortex. The neocortex is characterized anatomically by the relative uniformity of its circuitry despite its role in processing distinct signals from region to region. A combination of physiological, anatomical, and theoretical studies has shed some light on the circuitry components necessary for generating orientation selectivity in V1. This targeted effort has led to critical insights, as well as controversies, concerning how neural circuits in the neocortex perform computations._
+ _in the primary visual cortex (V1) are extremely sensitive to stimulus orientation. This profound change in the receptive field structure along the visual pathway has positioned V1 as a model system for studying the circuitry that underlies neural computations across the neocortex. The neocortex is characterized anatomically by the relative uniformity of its circuitry despite its role in processing distinct signals from region to region. A combination of physiological, anatomical, and theoretical studies has shed some light on the circuitry components necessary for generating orientation selectivity in V1. This targeted effort has led to critical insights, as well as controversies, concerning how neural circuits in the neocortex perform computations._
 </p>
 
 <br>
