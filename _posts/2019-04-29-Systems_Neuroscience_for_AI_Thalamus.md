@@ -2,7 +2,7 @@
 
 layout: post
 
-title:  The Cerebral Cortex&#58; A Very Tangled Web 
+title:  The Thalamus&#58; More than just Central Station 
 
 ---
 
@@ -41,11 +41,12 @@ https://doi.org/10.1002/cphy.c160032 <br>
 <br>
 <br>
 <br>
-<img align="right" width="400" height="350" src="../images/sysneuroai_images/sherman_pic.png">
 
 
 **Abstract**
-_Glutamatergic pathways in thalamus and cortex are divided into two distinct classes: driver, which carries the main information between cells, and modulator, which modifies how driver inputs function. Identifying driver inputs helps to reveal functional computational circuits, and one set of such circuits identified by this approach are cortico-thalamo-cortical (or transthalamic corticocortical) circuits. This, in turn, leads to the conclusion that there are two types of thalamic relay: first order nuclei (such as the lateral geniculate nucleus) that relay driver input from a subcortical source (i.e., retina), and higher order nuclei (such as the pulvinar) which are involved in these transthalamic pathways by relaying driver input from layer 5 of one cortical area to another. This thalamic division is also seen in other sensory pathways and beyond these so that most of thalamus by volume consists of higher-order relays. Many, and perhaps all, direct driver connections between cortical areas are paralleled by an indirect cortico-thalamo-cortical (transthalamic) driver route involving higher order thalamic relays. Such thalamic relays represent a heretofore unappreciated role in cortical functioning, and this assessment challenges and extends conventional views regarding both the role of thalamus and mechanisms of corticocortical communication. Finally, many and perhaps the vast majority of driver inputs relayed through thalamus arrive via branching axons, with extrathalamic targets often being subcortical motor centers. This raises the possibility that inputs relayed by thalamus to cortex also serve as efference copies, and this may represent an important feature of information relayed up the cortical hierarchy via transthalamic circuits._ </p>
+_Glutamatergic pathways in thalamus and cortex are divided into two distinct classes: driver, which carries the main information between cells, and modulator, which modifies how driver inputs function. Identifying driver inputs helps to reveal functional computational circuits, and one set of such circuits identified by this approach are cortico-thalamo-cortical (or transthalamic corticocortical) circuits. This, in turn, leads to the conclusion that there are two types of thalamic relay: first order nuclei (such as the lateral geniculate nucleus) that relay driver input from a subcortical source (i.e., retina), and higher order nuclei (such as the pulvinar) which are involved in these transthalamic pathways_
+ <img align="right" width="400" height="350" src="../images/sysneuroai_images/sherman_pic.png"> 
+_by relaying driver input from layer 5 of one cortical area to another. This thalamic division is also seen in other sensory pathways and beyond these so that most of thalamus by volume consists of higher-order relays. Many, and perhaps all, direct driver connections between cortical areas are paralleled by an indirect cortico-thalamo-cortical (transthalamic) driver route involving higher order thalamic relays. Such thalamic relays represent a heretofore unappreciated role in cortical functioning, and this assessment challenges and extends conventional views regarding both the role of thalamus and mechanisms of corticocortical communication. Finally, many and perhaps the vast majority of driver inputs relayed through thalamus arrive via branching axons, with extrathalamic targets often being subcortical motor centers. This raises the possibility that inputs relayed by thalamus to cortex also serve as efference copies, and this may represent an important feature of information relayed up the cortical hierarchy via transthalamic circuits._ </p>
 
 <br>
 <p markdown='1' style="text-align:center">---</p>
