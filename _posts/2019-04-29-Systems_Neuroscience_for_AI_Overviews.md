@@ -28,16 +28,17 @@ Going forward, it will be helpful to have a broad overview of the computational 
 
 <h3 markdown='1' style="color:#515A5A">
 [Complementary roles of basal ganglia and cerebellum in learning and motor control](https://doi.org/10.1016/S0959-4388(00)00153-7)
+<img align="right" width="250" height="235" src="../images/sysneuroai_images/Doya2000.png">
 </h3>
 
 <p markdown='1' style="color:#515A5A">
-<img align="right" width="250" height="235" src="../images/sysneuroai_images/Doya2000.png">
 <br>
 Current Opinion in Neurobiology 2000, 10:732–739<br>
 Kenji Doya<br>
 https://doi.org/10.1016/S0959-4388(00)00153-7<br>
 <br>
 
+<img align="right" width="350" height="250" src="../images/sysneuroai_images/doya2000_pic.png">
 **Abstract**<br>
 _The classical notion that the basal ganglia and the cerebellum are dedicated to motor control has been challenged by the accumulation of evidence revealing their involvement in non-motor, cognitive functions. From a computational viewpoint, it has been suggested that the cerebellum, the basal ganglia, and the cerebral cortex are specialized for different types of learning: namely, supervised learning, reinforcement learning and unsupervised learning, respectively. This idea of learning-oriented specialization is helpful in understanding the complementary roles of the basal ganglia and the cerebellum in motor control and cognitive functions.<br>
 <br>
@@ -47,7 +48,6 @@ Associated talks: https://youtu.be/iJeuZ7Q2Tk0<br>
 
 </p>
 
-<img align="right" width="350" height="250" src="../images/sysneuroai_images/doya2000_pic.png">
 <br>
 <p markdown='1' style="text-align:center">---</p>
 <br>
