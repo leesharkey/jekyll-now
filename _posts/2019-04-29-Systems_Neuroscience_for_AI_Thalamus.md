@@ -8,20 +8,18 @@ title:  The Thalamus&#58; More than just Central Station
 
 _This post is part of a series "Systems Neuroscience for AI: An Introductory Guide to the Literature"._
 
-#### Guide contents
-* [Introduction]()
-* [Motivation: why should we pay attention to the brain for AI?]()
-* [Overviews: What, broadly speaking, is the brain computing?]() 
-* [The Cerebral Cortex: A Very Tangled Web]()
-* [The Thalamus: More than just Central Station]() (This page)
-* [The Hippocampus: A Less Tangled Web]()
-* [Cortico-hippocampal interactions]()
-* [Reinforcement Learning with the Basal Ganglia and prefrontal cortex]()
-* [The Telencephalon: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]()
-* [The ‘Little Brain’, often forgotten: the Cerebellum]()
-* [The Cerebello-basal ganglia-thalamo-cortical system]()
-* [Conclusions]()
-
+* [Introduction]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Introduction/)
+* [Motivation: why should we pay attention to the brain for AI?]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Motivation/)
+* [Overviews: What, broadly speaking, is the brain computing?]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Overviews/)
+* [The Cerebral Cortex: A Very Tangled Web]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cerebral_Cortex/)
+* [The Thalamus: More than just Central Station]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Thalamus/) (This page)
+* [The Hippocampus: A Less Tangled Web]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Hippocampus/)
+* [Cortico-hippocampal interactions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cortico-hippocampal_interactions/)
+* [Reinforcement Learning with the Basal Ganglia and prefrontal cortex]({{ site.baseurl }}/Systems_Neuroscience_for_AI_RL_with_BG_and_PFC/)
+* [The Telencephalon: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Telencephalon/)
+* [The ‘Little Brain’, often forgotten: the Cerebellum]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cerebellum/)
+* [The Cerebello-basal ganglia-thalamo-cortical system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_CB_BG_Th_Ctx/)
+* [Conclusions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Conclusions/)
 <br>
 <p markdown='1' style="text-align:center">---</p>
 <br>

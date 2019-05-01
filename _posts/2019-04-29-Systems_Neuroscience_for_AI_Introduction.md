@@ -7,18 +7,18 @@ title: Systems Neuroscience for AI&#58; An Introductory Guide to the Literature
 ---
 
 #### Guide contents
-* [Introduction]() (This page)
-* [Motivation: why should we pay attention to the brain for AI?]()
-* [Overviews: What, broadly speaking, is the brain computing?]()
-* [The Cerebral Cortex: A Very Tangled Web]()
-* [The Thalamus: More than just Central Station]()
-* [The Hippocampus: A Less Tangled Web]()
-* [Cortico-hippocampal interactions]()
-* [Reinforcement Learning with the Basal Ganglia and prefrontal cortex]()
-* [The Telencephalon: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]()
-* [The ‘Little Brain’, often forgotten: the Cerebellum]()
-* [The Cerebello-basal ganglia-thalamo-cortical system]()
-* [Conclusions]()
+* [Introduction]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Introduction/) (This page)
+* [Motivation: why should we pay attention to the brain for AI?]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Motivation/)
+* [Overviews: What, broadly speaking, is the brain computing?]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Overviews/)
+* [The Cerebral Cortex: A Very Tangled Web]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cerebral_Cortex/)
+* [The Thalamus: More than just Central Station]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Thalamus/)
+* [The Hippocampus: A Less Tangled Web]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Hippocampus/)
+* [Cortico-hippocampal interactions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cortico-hippocampal_interactions/)
+* [Reinforcement Learning with the Basal Ganglia and prefrontal cortex]({{ site.baseurl }}/Systems_Neuroscience_for_AI_RL_with_BG_and_PFC/)
+* [The Telencephalon: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Telencephalon/)
+* [The ‘Little Brain’, often forgotten: the Cerebellum]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cerebellum/)
+* [The Cerebello-basal ganglia-thalamo-cortical system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_CB_BG_Th_Ctx/)
+* [Conclusions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Conclusions/)
 <br>
 <p markdown='1' style="text-align:center">---</p>
 <br>
@@ -26,7 +26,7 @@ title: Systems Neuroscience for AI&#58; An Introductory Guide to the Literature
 > “The brain is arguably still the only example that we have of something that approximates the kind of intelligence we’re trying to build, and so it seems like a good idea to pay some attention to how it works.”  
 > Matt Botvinick, Director of Neuroscience Research, DeepMind
 
-_**TL;DR**: This guide aims to give AI researchers a skeleton-frame introduction to modern systems neuroscience and contextualise specific recent AI research with respect to those systems. It focuses on views of neuroscientific systems that are deemed most likely to be useful for AI research in the near term. Despite efforts to remove personal biases and omissions, some will remain in any concise guide with such a broad scope. Some articles are behind paywalls. Sci-hub exists._
+_**TL;DR**: This guide aims to give AI researchers a skeleton-frame introduction to modern systems neuroscience and contextualise specific recent AI research with respect to those systems. It focuses on views of neuroscientific systems that are deemed most likely to be useful for AI research in the near term. Despite efforts to remove personal biases and omissions, some will remain in any concise guide with such a broad scope. Some articles are behind paywalls. [Sci-hub](https://whereisscihub.now.sh/go) exists._
 
 General intelligence is ostensibly the central goal of the field of AI. Yet, with some notable exceptions, few in AI research pay much attention to the only known example of general intelligence: the human brain. Although some early AI took inspiration from neuroscience, the two fields gradually grew more distant while statistical-theoretical and computational constraints caught up with the neuroscientific theory. Today, the time is ripe for an academic rapprochement between the two fields, and it’s happening. But finding good, modern sources for getting up to speed on biological intelligence takes a lot of time; it’s costly even to figure out what areas of neuroscience to prioritise. And when thousands upon thousands of new AI papers come out every year, keeping abreast in both fields is a near impossible challenge. 
 
