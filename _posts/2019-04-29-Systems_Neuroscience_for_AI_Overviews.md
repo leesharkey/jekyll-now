@@ -37,8 +37,11 @@ Current Opinion in Neurobiology 2000, 10:732–739<br>
 Kenji Doya<br>
 https://doi.org/10.1016/S0959-4388(00)00153-7<br>
 <br>
-
-<img align="right" width="350" height="250" src="../images/sysneuroai_images/doya2000_pic.png">
+<br>
+<br>
+<br>
+<br>
+<img align="right" width="400" height="250" src="../images/sysneuroai_images/doya2000_pic.png">
 **Abstract**<br>
 _The classical notion that the basal ganglia and the cerebellum are dedicated to motor control has been challenged by the accumulation of evidence revealing their involvement in non-motor, cognitive functions. From a computational viewpoint, it has been suggested that the cerebellum, the basal ganglia, and the cerebral cortex are specialized for different types of learning: namely, supervised learning, reinforcement learning and unsupervised learning, respectively. This idea of learning-oriented specialization is helpful in understanding the complementary roles of the basal ganglia and the cerebellum in motor control and cognitive functions.<br>
 <br>
@@ -58,8 +61,8 @@ Now familiar with the idea that different parts of the brain are performing diff
 
 <h3 markdown='1' style="color:#515A5A">
 [Toward an Integration of Deep Learning and Neuroscience](https://doi.org/10.3389/fncom.2016.00094)
-</h3>
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/marblestone.png">
+</h3>
 <br>
 <p markdown='1' style="color:#515A5A">
 Front. Comput. Neurosci., 14 September 2016
@@ -68,10 +71,13 @@ Adam H. Marblestone, Greg Wayne and Konrad P. Kording
 <br>
 https://doi.org/10.3389/fncom.2016.00094
 <br>
+<br>
+<br>
+<br>
 
+<img align="right" width="350" height="325" src="../images/sysneuroai_images/marblestone_pic.png">
 **Abstract**
 <br>
 Neuroscience has focused on the detailed implementation of computation, studying neural codes, dynamics and circuits. In machine learning, however, artificial neural networks tend to eschew precisely designed codes, dynamics or circuits in favor of brute force optimization of a cost function, often using simple and relatively uniform initial architectures. Two recent developments have emerged within machine learning that create an opportunity to connect these seemingly divergent perspectives. First, structured architectures are used, including dedicated systems for attention, recursion and various forms of short- and long-term memory storage. Second, cost functions and training procedures have become more complex and are varied across layers and over time. Here we think about the brain in terms of these ideas. We hypothesize that (1) the brain optimizes cost functions, (2) the cost functions are diverse and differ across brain locations and over development, and (3) optimization operates within a pre-structured architecture matched to the computational problems posed by behavior. In support of these hypotheses, we argue that a range of implementations of credit assignment through multiple layers of neurons are compatible with our current knowledge of neural circuitry, and that the brain's specialized systems can be interpreted as enabling efficient optimization for specific problem classes. Such a heterogeneously optimized system, enabled by a series of interacting cost functions, serves to make learning data-efficient and precisely targeted to the needs of the organism. We suggest directions by which neuroscience could seek to refine and test these hypotheses.
 </p>
 
-<img align="right" width="350" height="325" src="../images/sysneuroai_images/marblestone_pic.png">
