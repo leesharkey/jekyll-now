@@ -11,8 +11,8 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 #### Guide contents
 * [Introduction]()
 * [Motivation: why should we pay attention to the brain for AI?]()
-* [Overviews: What, broadly speaking, is the brain computing?]() (This page)
-* [The Cerebral Cortex: A Very Tangled Web]()
+* [Overviews: What, broadly speaking, is the brain computing?]() 
+* [The Cerebral Cortex: A Very Tangled Web]() (This page)
 * [The Thalamus: More than just Central Station]()
 * [The Hippocampus: A Less Tangled Web]()
 * [Cortico-hippocampal interactions]()
@@ -58,9 +58,10 @@ httks://doi.org/10.1016/j.neuron.2018.10.003 <br>
 <br>
 
 **Abstract**
-This perspective describes predictive processing as a computational framework for understanding cortical function in the context of emerging evidence, with a focus on sensory processing. We discuss how the predictive processing framework may be implemented at the level of cortical circuits and how its implementation could be falsified experimentally. Lastly, we summarize the general implications of predictive processing on cortical function in healthy and diseased states.<br>
-<br>
+_This perspective describes predictive processing as a computational framework for understanding cortical function in the context of emerging evidence, with a focus on sensory processing. We discuss how the predictive processing framework may be implemented at the_
 <img align="right"  src="../images/sysneuroai_images/mrsic_pic.png"><br>
+ _level of cortical circuits and how its implementation could be falsified experimentally. Lastly, we summarize the general implications of predictive processing on cortical function in healthy and diseased states._
+<br>
 </p>
 <p></p>
 <br>
@@ -106,22 +107,18 @@ Annual Review of Vision Science Vol. 2:85-107 (October 2016) <br>
 Nicholas J. Priebe <br>
 https://doi.org/10.1146/annurev-vision-111815-114456 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<img align="right" width="400" height="350" src="../images/sysneuroai_images/priebe_pic.png">
 **Abstract**
-_The mechanisms underlying the emergence of orientation selectivity in the visual cortex have been, and continue to be, the subjects of intense scrutiny. Orientation selectivity reflects a dramatic change in the representation of the visual world: Whereas afferent thalamic neurons are generally orientation insensitive, neurons in the primary visual cortex (V1) are extremely sensitive to stimulus orientation. This profound change in the receptive field structure along the visual pathway has positioned V1 as a model system for studying the circuitry that underlies neural computations across the neocortex. The neocortex is characterized anatomically by the relative uniformity of its circuitry despite its role in processing distinct signals from region to region. A combination of physiological, anatomical, and theoretical studies has shed some light on the circuitry components necessary for generating orientation selectivity in V1. This targeted effort has led to critical insights, as well as controversies, concerning how neural circuits in the neocortex perform computations._
+
+_The mechanisms underlying the emergence of orientation selectivity in the visual cortex have been, and continue to be, the subjects of intense scrutiny. Orientation selectivity reflects a dramatic change in the representation of the visual world: Whereas afferent thalamic neurons are generally orientation insensitive, neurons in the primary visual cortex (V1) are extremely sensitive to stimulus orientation. This profound change in the receptive field structure along the visual pathway has positioned V1 as a model system for studying the_
+<img align="right" width="400" height="350" src="../images/sysneuroai_images/priebe_pic.png">
+ _circuitry that underlies neural computations across the neocortex. The neocortex is characterized anatomically by the relative uniformity of its circuitry despite its role in processing distinct signals from region to region. A combination of physiological, anatomical, and theoretical studies has shed some light on the circuitry components necessary for generating orientation selectivity in V1. This targeted effort has led to critical insights, as well as controversies, concerning how neural circuits in the neocortex perform computations._
 </p>
 
 <br>
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-One of the arguments highlighted by Hassabis et al. (2016) and Ganguli (2018), presented in the 'Motivations' section{link}, is that neuroscience and AI provide a good source of priors for each other. A possible example of this is Costa et al. (2017), which attempts to map cortical circuitry onto a variant of the LSTM. While I don’t place a lot of probability on the specific thesis article being correct, it is a relevant and recent example of inter-field crosstalk and how the two fields can yield meaningful hypotheses for each other. 
+One of the arguments highlighted by Hassabis et al. (2016) and Ganguli (2018), presented in the 'Motivations' section{link}, is that neuroscience and AI provide a good source of priors for each other. A possible example of this is Costa et al. (2017), which attempts to map cortical circuitry onto a variant of the LSTM. While I don’t place a lot of probability mass on the specific thesis article being correct, it is a relevant and recent example of inter-field crosstalk and how the two fields can yield meaningful hypotheses for each other. 
 
 These are only the beginning of our encounters with the cortex. Being such an important area for both representing and interacting with the world, almost all future sections will involve the cortex and its interactions with other brain areas. Our next stop is at the cortex’s gateway, the brain part through which almost all input to the cortex must pass: the thalamus.
 
