@@ -30,4 +30,4 @@ If you have been following along by reading the reviews, we have now come a long
 
 Despite our ignorance, and despite having only a skeleton-frame perspective, we have seen how systems neuroscience provides a rational and useful framework around which we can build our mental models of intelligence. Now, using this framework, let us go out and improve our mental and physical models of general intelligence.
 
-<img align="center" width="50%" height="50%" src="../images/brain_sketch.png"> 
+<img align="center" width="50%" height="50%" src="../images/brain_sketch.jpg"> 
