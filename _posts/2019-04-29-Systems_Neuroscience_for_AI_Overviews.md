@@ -2,7 +2,7 @@
 
 layout: post
 
-title: Systems Neuroscience for AI 
+title: Overviews&#58; What, broadly speaking, is the brain computing? 
 
 ---
 
@@ -21,10 +21,11 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 * [The ‘Little Brain’, often forgotten: the Cerebellum]()
 * [The Cerebello-basal ganglia-thalamo-cortical system]()
 * [Conclusions]()
+ <br>
+ <p markdown='1' style="text-align:center">---</p>
+ <br>
 
-## Overviews: What, broadly speaking, is the brain computing?
-
-Going forward, it will be helpful to have a broad overview of the computational organisation of the brain. For this reason, despite its age (being by far the oldest review selected for this guide), the following short review by Kenji Doya (2000) gives a view of the computational-level function of three important areas in the brain - the cerebral cortex, the cerebellum, and the basal ganglia, and assigns to them unsupervised learning, supervised learning, and reinforcement learning respectively. Even if the true picture isn’t as clean as this perspective implies, it provides a straightforward conceptual framework around which further ideas can be built. 
+Going forward, it will be kelpful to have a broad overview of the computational organisation of the brain. For this reason, despite its age (being by far the oldest review selected for this guide), the following short review by Kenji Doya (2000) gives a view of the computational-level function of three important areas in the brain - the cerebral cortex, the cerebellum, and the basal ganglia, and assigns to them unsupervised learning, supervised learning, and reinforcement learning respectively. Even if the true picture isn’t as clean as this perspective implies, it provides a straightforward conceptual framework around which further ideas can be built. 
 
 <h3 markdown='1' style="color:#515A5A">
 [Complementary roles of basal ganglia and cerebellum in learning and motor control](https://doi.org/10.1016/S0959-4388(00)00153-7)

@@ -2,7 +2,7 @@
 
 layout: post
 
-title: Systems Neuroscience for AI&#58; The Cerebral Cortex - A Very Tangled Web 
+title:  The Cerebral Cortex&#58; A Very Tangled Web 
 
 ---
 
@@ -62,6 +62,8 @@ This perspective describes predictive processing as a computational framework fo
 <br>
 <img align="right"  src="../images/sysneuroai_images/mrsic_pic.png"><br>
 </p>
+<br>
+<br>
 <br>
 <br>
 <p markdown='1' style="text-align:center">---</p>

@@ -2,7 +2,7 @@
 
 layout: post
 
-title: Systems Neuroscience for AI 
+title: Motivation&#58; why should we pay attention to the brain for AI? 
 
 ---
 
@@ -21,8 +21,9 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 * [The ‘Little Brain’, often forgotten: the Cerebellum]()
 * [The Cerebello-basal ganglia-thalamo-cortical system]()
 * [Conclusions]()
-
-## Motivation - Why should we pay attention to the brain for AI?
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
 
 It is commonplace to hear in some quarters that, nowadays, any alleged link between neuroscience and artificial intelligence is spurious. Informed accounts such as Hassabis et al. (2017) and this excellent post by Surya Ganguli at Stanford (both linked below) show that the link between neuroscience and artificial intelligence has always - and continues - to run deep. 
 

@@ -29,7 +29,7 @@ General intelligence is ostensibly the central goal of the field of AI. Yet, wit
 
 To help make the challenge a little less difficult, I present this guided reading list of modern neuroscience literature. It’s aimed at AI researchers (and will also be useful to early-stage computational neuroscience students) who already have the equivalent of a basic undergraduate-level course in systems neuroscience. Its goals are twofold: 
 
-1. To convince the reader that, although we are still ignorant of many crucial details in systems neuroscience, our knowledge as it stands provides a rational framework to organise our thinking on intelligence, and
+1. To convince the reader that, although we are still ignorant of many crucial details in systems neuroscience, our knowledge as it stands provides **a rational framework to organise our thinking on intelligence**, and
 2. To give the reader a sound, skeleton-frame mental model of our current theories of how general intelligence is implemented by the brain.
 
 **Importantly, the guide relegates classic literature in favour of recent articles**. This was partly motivated by laziness, but it is mostly by design, since most articles present ample introductions to the historical literature. The guide presents an assortment of consensus views and emerging perspectives. The list is also populated by links to recent video lectures by the authors of some of the reviews. In addition to the neuroscience reviews, readers from either neuroscience or AI will be able to build their mental models of intelligence ‘in both directions’ thanks contextualising discussions of a selection of recent AI literature that has clear links to the respective neuroscientific systems.
