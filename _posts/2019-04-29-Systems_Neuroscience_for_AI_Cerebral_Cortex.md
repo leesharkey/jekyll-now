@@ -30,7 +30,7 @@ One of the striking things about the cortex is that a brain region with such a s
 ## Some advisory notes on the cortex
 Let me save you some time. Possibly a lot of time. 
 
-Navigating the cortical literature, you’ll hear a lot of talk about the canonical cortical circuit, but does it even exist? Once a majority view, today the debate is more diverse, reflecting the diversity of microcircuitry found in the cortex. Whatever the outcome of the debate, there is an agreement of a structural similarity on some level: at very least, the cortex has a clear layered structure and there are some common structural motifs within that structure. We will leave the debate on how functionally meaningful is cortical heterogeneity to the biologists. While the specific details of cortical anatomy and physiology remain mysterious, several principles of cortical computation have emerged. As with systems neuroscience as a whole, focusing on these principles, rather than their specific implementation, will be more useful for our purposes{link}.
+Navigating the cortical literature, you’ll hear a lot of talk about the canonical cortical circuit, but does it even exist? Once a majority view, today the debate is more diverse, reflecting the diversity of microcircuitry found in the cortex. Whatever the outcome of the debate, there is an agreement of a structural similarity on some level: at very least, the cortex has a clear layered structure and there are some common structural motifs within that structure. We will leave the debate on how functionally meaningful is cortical heterogeneity to the biologists. While the specific details of cortical anatomy and physiology remain mysterious, several principles of cortical computation have emerged. As with systems neuroscience as a whole, focusing on these principles, rather than their specific implementation, will be more useful for [our purposes]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Introduction/).
 
 The next advisory note is not so much a debate, but flags a conceptual relic left over from a time when we didn’t know any better. You’ll read researchers talking about the ‘cortical column’, purportedly the functional unit of cortical computation which spans its layers vertically. But the circuit-level anatomy of a column lacks observational evidence, and a universally accepted definition of columns does not exist. [da Costa and Martin (2010)](https://doi.org/10.3389/fnana.2010.00016) discuss the origin of the confusion and why it endures.
 
@@ -46,12 +46,12 @@ Probably the most widely accepted single candidate theory is the predictive codi
 In this review, Keller and Mrsic-Flogel give an overview of the set of theories they collect together to call ‘predictive processing’, and what the behavioural benefits of predictive processing might be. They suggest components of a predictive processing algorithm that neuroscientists should expect to find if the cortex is implementing predictive process and review the current evidence for the existence of those algorithmic components.
 
 <h3 markdown='1' style="color:#515A5A">
-[Predictive Processing: A Canonical Cortical Computation.](httks://doi.org/10.1016/j.neuron.2018.10.003)<img align="right" width="250" height="235" src="../images/sysneuroai_images/kellerandmrsicFl.png">
+[Predictive Processing: A Canonical Cortical Computation.](https://doi.org/10.1016/j.neuron.2018.10.003)<img align="right" width="250" height="235" src="../images/sysneuroai_images/kellerandmrsicFl.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
 Neuron. 2018 Oct 24;100(2):424-435. <br>
 Keller GB, Mrsic-Flogel TD <br>
-httks://doi.org/10.1016/j.neuron.2018.10.003 <br>
+https://doi.org/10.1016/j.neuron.2018.10.003 <br>
 <br>
 **Abstract**<br>
 _This perspective describes predictive processing as a computational framework for understanding cortical function in the context of emerging evidence, with a focus on sensory processing. We discuss how the predictive processing framework may be implemented at the level of cortical circuits and how its implementation could be falsified experimentally. Lastly, we summarize the general implications of predictive processing on cortical function in healthy and diseased states._
@@ -71,7 +71,7 @@ Prediction is probably not the only primary category of cortical computation, bu
 * Six principles for biologically based computational models of cortical cognition. ([O’Reilly, 1998](https://www.sciencedirect.com/science/article/pii/S1364661398012418)), which presents classic but lasting criticisms of the standard feedforward neural network with backpropagation as a model of cortical cognition. 
 
 ## Where is each cortical function computed, or do we care? 
-For our purposes{link}, it is not particularly enlightening to learn the anatomical name or location of the cortical area that computes a particular function or representation; that information may be useful for biologists, but tells us little with regard to how intelligence is organised. Nevertheless, it would be remiss not to discuss anything about the global organisation of the cortex. Given the complexity of the brain, it might be surprising that the relative locations of functional areas of cortex is fundamentally quite easy to predict, conditional on knowing the locations its most basic inputs and outputs. To understand this heuristic to cortical layout, we’ll first reformulate the problem. 
+For [our purposes]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Introduction/), it is not particularly enlightening to learn the anatomical name or location of the cortical area that computes a particular function or representation; that information may be useful for biologists, but tells us little with regard to how intelligence is organised. Nevertheless, it would be remiss not to discuss anything about the global organisation of the cortex. Given the complexity of the brain, it might be surprising that the relative locations of functional areas of cortex is fundamentally quite easy to predict, conditional on knowing the locations its most basic inputs and outputs. To understand this heuristic to cortical layout, we’ll first reformulate the problem. 
 
 We start with a few assumptions: 
 * Treat the computation network of the cortex as a directed cyclic graph where each computational unit (whether that be a cell, a ‘column’, a microcircuit, a large functional region, or other) is a node
@@ -117,7 +117,7 @@ _thalamic neurons are generally orientation insensitive, neurons in the primary 
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-One of the arguments highlighted by Hassabis et al. (2016) and Ganguli (2018), presented in the 'Motivations' section{link}, is that neuroscience and AI provide a good source of priors for each other. A possible example of this is [Costa et al. (2017)](https://arxiv.org/abs/1711.02448), which attempts to map cortical circuitry onto a variant of the LSTM. While I don’t place a lot of probability mass on the thesis of the article being correct, it is a relevant and recent example of inter-field crosstalk and how the two fields can yield meaningful hypotheses for each other. 
+One of the arguments highlighted by Hassabis et al. (2016) and Ganguli (2018), presented in the [Motivations section]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Motivation/), is that neuroscience and AI provide a good source of priors for each other. A possible example of this is [Costa et al. (2017)](https://arxiv.org/abs/1711.02448), which attempts to map cortical circuitry onto a variant of the LSTM. While I don’t place a lot of probability mass on the thesis of the article being correct, it is a relevant and recent example of inter-field crosstalk and how the two fields can yield meaningful hypotheses for each other. 
 
 These are only the beginning of our encounters with the cortex. Being such an important area for both representing and interacting with the world, almost all future sections will involve the cortex and its interactions with other brain areas. Our next stop is at the cortex’s gateway, the brain part through which almost all input to the cortex must pass: the thalamus.
 

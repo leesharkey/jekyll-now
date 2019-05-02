@@ -66,7 +66,7 @@ Front. Comput. Neurosci., 14 September 2016
 Adam H. Marblestone, Greg Wayne and Konrad P. Kording
 <br>
 https://doi.org/10.3389/fncom.2016.00094
-<br>
+<br><br>
 **Abstract**
 <br>
 _Neuroscience has focused on the detailed implementation of computation, studying neural codes, dynamics and circuits. In machine learning, however, artificial neural networks tend to eschew precisely designed codes, dynamics or circuits in favor of brute force_ 

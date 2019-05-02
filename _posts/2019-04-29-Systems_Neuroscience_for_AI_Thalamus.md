@@ -60,7 +60,7 @@ Michael M. Halassa & Sabine Kastner <br>
 https://doi.org/10.1038/s41593-017-0020-1 <br>
 <br>
 **Abstract**
-
+<br>
 _Cognition can be conceptualized as a set of algorithmic control functions whose real-time deployment determines how an organism stores and uses information to guide thought and action. A subset of these functions is required for goal-directed selection and amplification_ 
 <img align="right" width="300" height="450" src="../images/sysneuroai_images/halassa_pic.png">
 _of sensory signals—broadly referred to as attention—and for its flexible control and its interaction with processes such as working memory and decision making. While the contribution of recurrent cortical microcircuits to cognition has been extensively studied, the role of the thalamus is just beginning to be elucidated. Here we highlight recent studies across rodents and primates showing how thalamus contributes to attentional control. In addition to high-fidelity information relay to or between cortical regions, thalamic circuits shift and sustain functional interactions within and across cortical areas. This thalamic process enables rapid coordination of spatially segregated cortical computations, thereby constructing task-relevant functional networks. Because such function may be critical for cognitive flexibility, clarifying its mechanisms will likely expand our basic understanding of cognitive control and its perturbation in disease._ </p>
