@@ -86,9 +86,9 @@ https://doi.org/10.1016/j.tics.2016.05.004<br>
 <br>
 **Abstract**<br>
 
-_We update complementary learning systems (CLS) theory, which holds that intelligent agents must possess two learning systems, instantiated in mammalians in neocortex and hippocampus._ 
-<img align="right" width="350" height="300" src="../images/sysneuroai_images/kumaran_pic.png">
-_The first gradually acquires structured knowledge representations while the second quickly learns the specifics of individual experiences. We broaden the role of replay of hippocampal memories in the theory, noting that replay allows goal-dependent weighting of experience statistics. We also address recent challenges to the theory and extend it by showing that recurrent activation of hippocampal traces can support some forms of generalization and that neocortical learning can be rapid for information that is consistent with known structure. Finally, we note the relevance of the theory to the design of artificial intelligent agents, highlighting connections between neuroscience and machine learning._ <br><br>
+_We update complementary learning systems (CLS) theory, which holds that intelligent agents must possess two learning systems,_ 
+ <img align="right" width="350" height="300" src="../images/sysneuroai_images/kumaran_pic.png">
+_instantiated in mammalians in neocortex and hippocampus. The first gradually acquires structured knowledge representations while the second quickly learns the specifics of individual experiences. We broaden the role of replay of hippocampal memories in the theory, noting that replay allows goal-dependent weighting of experience statistics. We also address recent challenges to the theory and extend it by showing that recurrent activation of hippocampal traces can support some forms of generalization and that neocortical learning can be rapid for information that is consistent with known structure. Finally, we note the relevance of the theory to the design of artificial intelligent agents, highlighting connections between neuroscience and machine learning._ <br><br>
 
 </p>
 
@@ -151,9 +151,9 @@ https://doi.org/10.1146/annurev-psych-010418-102824 <br>
 <br>
 **Abstract**<br>
 
-_Making decisions in environments with few choice options is easy. We select the action that results in the most valued outcome. Making decisions in more complex_ 
-<img align="right" width="400" height="300" src="../images/sysneuroai_images/sharpe_pic.png">
-_environments, where the same action can produce different outcomes in different conditions, is much harder. In such circumstances, we propose that accurate action selection relies on top-down control from the prelimbic and orbitofrontal cortices over striatal activity through distinct thalamostriatal circuits. We suggest that the prelimbic cortex exerts direct influence over medium spiny neurons in the dorsomedial striatum to represent the state space relevant to the current environment. Conversely, the orbitofrontal cortex is argued to track a subject's position within that state space, likely through modulation of cholinergic interneurons._ <br><br>
+_Making decisions in environments with few choice options is easy. We select the action that results in the most valued outcome. Making_ 
+<img align="right" width="400" height=    "300" src="../images/sysneuroai_images/sharpe_pic.png">
+_decisions in more complex environments, where the same action can produce different outcomes in different conditions, is much harder. In such circumstances, we propose that accurate action selection relies on top-down control from the prelimbic and orbitofrontal cortices over striatal activity through distinct thalamostriatal circuits. We suggest that the prelimbic cortex exerts direct influence over medium spiny neurons in the dorsomedial striatum to represent the state space relevant to the current environment. Conversely, the orbitofrontal cortex is argued to track a subject's position within that state space, likely through modulation of cholinergic interneurons._ <br><br>
 </p>
 
 <p markdown='1' style="text-align:right">_Next post_: [The ‘Little Brain’, often forgotten: the Cerebellum]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cerebellum/)</p>

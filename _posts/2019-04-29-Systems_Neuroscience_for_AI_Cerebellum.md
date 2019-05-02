@@ -28,10 +28,10 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 
 The traditional view of the cerebellum is that it refines movement. Given that so much valuable neuroscience had to be excluded from the guide, why then should such a limited brain region get a whole section? A modern view of the cerebellum affords it a much broader role, including in cognition. Before addressing this role with respect to the systems treated in previous sections, we must first consider it in isolation.
 
-As a brief primer on on the well-studied circuitry and basic function of the cerebellum, I recommend this 10 minute [video](https://youtu.be/NcIWYCkKwVA).
+As a brief primer on the well-studied circuitry and basic function of the cerebellum, I recommend this 10 minute [video](https://youtu.be/NcIWYCkKwVA).
 
 <h3 markdown='1' style="color:#515A5A">
-The Cerebellum and Cognitive Function: 25 Years of Insight from Anatomy and Neuroimaging
+[The Cerebellum and Cognitive Function: 25 Years of Insight from Anatomy and Neuroimaging](https://doi.org/10.1016/j.neuron.2013.10.044)
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/buckner.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
