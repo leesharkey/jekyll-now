@@ -8,6 +8,7 @@ title:  The Thalamus&#58; More than just Central Station
 
 _This post is part of a series "Systems Neuroscience for AI: An Introductory Guide to the Literature"._
 
+#### Guide contents
 * [Introduction]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Introduction/)
 * [Motivation: why should we pay attention to the brain for AI?]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Motivation/)
 * [Overviews: What, broadly speaking, is the brain computing?]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Overviews/)
