@@ -24,10 +24,10 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-The combined discovery of place cells and grid cells got the judges at the Karolinska Institute so excited that it was the subject of the 2014 Nobel prize in physiology or medicine. As a refresher, place cells are cells in the hippocampus that individually activate if the animal (a rat in the original experiment) is in a particular location. Grid cells are cells that individually activate in multiple places, defined in a hexagonal grid-like pattern. One of my favourite single findings in computational neuroscience is that non-negative PCA performed on place cell activations yields ‘nonnegative principal components’ that have a hexagonal grid-like spatial pattern (Dordek et al. 2016). Cueva and Wei (2018) and DeepMind (Banino et al. 2018)(or see the blog post for a concise overview) independently replicated this observation in artificial agents, the latter arguing that this representation enables extremely efficient vector-based navigation. These findings have led to some interesting theories of cognition that take aim at a large scale explanation of the corticohippocampal system, including the following perspective from Behrens et al. (2018)(below) that we build grid-cell like codes for abstract, conceptual spaces. 
+The combined discovery of place cells and grid cells got the judges at the Karolinska Institute so excited that it was the subject of the 2014 Nobel prize in physiology or medicine. As a refresher, place cells are cells in the hippocampus that individually activate if the animal (a rat in the original experiment) is in a particular location. Grid cells are cells that individually activate in multiple places, defined in a hexagonal grid-like pattern. One of my favourite single findings in computational neuroscience is that non-negative PCA performed on place cell activations yields ‘nonnegative principal components’ that have a hexagonal grid-like spatial pattern ([Dordek et al. 2016](https://doi.org/10.7554/eLife.10094)). [Cueva and Wei (2018)](https://arxiv.org/abs/1803.07770) and DeepMind ([Banino et al. 2018](https://www.nature.com/articles/s41586-018-0102-6))(or see the [blog post](https://deepmind.com/blog/grid-cells/) for a concise overview) independently replicated this observation in artificial agents, the latter arguing that this representation enables extremely efficient vector-based navigation. These findings have led to some interesting theories of cognition that take aim at a large scale explanation of the corticohippocampal system, including the following perspective from Behrens et al. (2018)(below) that we build grid-cell like codes for abstract, conceptual spaces. 
 
 <h3 markdown='1' style="color:#515A5A">
-What Is a Cognitive Map? Organizing Knowledge for Flexible Behavior
+[What Is a Cognitive Map? Organizing Knowledge for Flexible Behavior](https://doi.org/10.1016/j.neuron.2018.10.002)
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/behrens2018.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
@@ -49,7 +49,7 @@ It is proposed that a cognitive map encoding the relationships between entities 
 You can find a related argument in Hawkins et al. (2019)(below) which leans even more heavily on the notion of movement, even in representational domains beyond spatial navigation. 
 
 <h3 markdown='1' style="color:#515A5A">
-A Framework for Intelligence and Cortical Function Based on Grid Cells in the Neocortex
+[A Framework for Intelligence and Cortical Function Based on Grid Cells in the Neocortex](https://doi.org/10.3389/fncir.2018.00121)
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/hawkins2019.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
@@ -72,7 +72,7 @@ Associated talks: https://www.youtube.com/watch?v=zVGQeFFjhEk
 At risk of overloading the reader with an excess of spicy new takes on the entorhinal cortex-hippocampus system, I include the following review for completeness. While the above two reviews looked at the cortico-hippocampal representations with respect to semantics and space respectively, the next review examines the representations of the hippocampus with respect to time. Buszaki argues here that the hippocampus (in conjunction with the entorhinal cortex) is best viewed as a pattern generator, responsible for “producing sequential content free structure to access and organize sensory experiences distributed across cortical modules.”
 
 <h3 markdown='1' style="color:#515A5A">
-Space and Time: The Hippocampus as a Sequence Generator.
+[Space and Time: The Hippocampus as a Sequence Generator.](https://doi.org/10.1016/j.tics.2018.07.006)
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/buzsaki.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
@@ -92,9 +92,9 @@ relative to an internally defined rate-of-change. While neuronal correlations wi
 <p markdown='1' style="text-align:center">---</p>
 <br>
 This is far from the limit of interesting literature on cortico-hippocampal interactions, but brevity forces us to move on. Before we do, I highlight in passing
-* **The Successor Representation: Its Computational Logic and Neural Substrates (Gershman 2018)** which gives an account of an emerging view of the specific types of representation encoded in the hippocampus, the successor representation. 
-* **Episodic Memory and Beyond: The Hippocampus and Neocortex in Transformation (Moscovitch et al. 2016)** which looks at the topic from a wider range of views than in the above reviews, primarily from the psychological perspective. 
-* **Approximate Hubel-Wiesel Modules and the Data Structures of Neural Computation (Leibo et al. 2015)**, which is an attempt to unify, on the computational and algorithmic level, the computations of the hippocampus and the neocortex. 
+* **The Successor Representation: Its Computational Logic and Neural Substrates ([Gershman 2018](https://doi.org/10.1523/JNEUROSCI.0151-18.2018))** which gives an account of an emerging view of the specific types of representation encoded in the hippocampus, the successor representation. 
+* **Episodic Memory and Beyond: The Hippocampus and Neocortex in Transformation ([Moscovitch et al. 2016](https://doi.org/10.1146/annurev-psych-113011-143733))** which looks at the topic from a wider range of views than in the above reviews, primarily from the psychological perspective. 
+* **Approximate Hubel-Wiesel Modules and the Data Structures of Neural Computation ([Leibo et al. 2015](https://arxiv.org/abs/1512.08457))**, which is an attempt to unify, on the computational and algorithmic level, the computations of the hippocampus and the neocortex. 
 
 If the hippocampus is where we instantiate or at least organise our imagination and novel thoughts as well as our recall, how do we choose what to call into imagination or to recall? We’re approaching a systems level of goal-directed behaviour, where we might consider ‘memory selection’ or ‘concept-for-imagination selection’ as a behaviour that is optimised by some policy. Before tackling the system that coordinates these functions (where we’ll look at the combination of the hippocampus, the thalamus, and the cortex) we should first address the system that coordinates goal-directed behaviour: the reinforcement learning system. 
 

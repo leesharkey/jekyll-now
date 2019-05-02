@@ -24,7 +24,7 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-Reinforcement learning and biology have a long and fruitful history of co-inspiration. Sutton and Barto (2018) Reinforcement Learning: An Introduction provides a good overview of this history and a good introduction to the relevant biology for AI researchers. Chapter 15 “Neuroscience”. For a gentle primer on the basal ganglia, check out this short video.
+Reinforcement learning and biology have a long and fruitful history of co-inspiration. [Sutton and Barto (2018) Reinforcement Learning: An Introduction](http://incompleteideas.net/book/RLbook2018.pdf) provides a good overview of this history and a good introduction to the relevant biology for AI researchers. Chapter 15 “Neuroscience”. For a gentle primer on the basal ganglia, check out this short [video](https://www.youtube.com/watch?v=NcIWYCkKwVA).
 
 Far from fizzling out, the virtuous cycle in the intersection of reinforcement learning in artificial and biological systems continues to yield insights that would have been difficult to reveal in isolation. There is far too much recent biologically-relevant deep reinforcement learning to review adequately here. Fortunately, Neftci & Averbeck (2019) present a satisfying review of the intersection between these topics, while looking more deeply at the biology than in Sutton and Barto. 
 
@@ -46,7 +46,7 @@ There is and has been a fruitful flow of concepts and ideas between studies of l
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-One of my frustrations in my undergraduate exposure to the prefrontal cortex was an over-reliance on the concept of “executive function”, with no accompanying explanation of how the brain actually performed it. So much else was at least partially explained - the sensory hierarchy, the mechanisms of episodic memory, the motor system; but executive function was left undissected, thus remaining strongly homuncular. I was therefore pleased to read the following explanatory offering from Wang et al. (2018), whose essential argument is that the PFC, the primary locus of ‘executive function’, is a meta-reinforcement learning system. Although it is not strictly speaking a review article, I include it because, in my view, it provides a compelling case for a unifying functional principle of a brain area that we consider responsible for much of intelligent behaviour in humans. 
+One of my frustrations in my undergraduate exposure to the prefrontal cortex was an over-reliance on the concept of “[executive function](https://en.wikipedia.org/wiki/Executive_functions)”, with no accompanying explanation of how the brain actually performed it. So much else was at least partially explained - the sensory hierarchy, the mechanisms of episodic memory, the motor system; but executive function was left undissected, thus remaining strongly homuncular. I was therefore pleased to read the following explanatory offering from [Wang et al. (2018)](https://www.nature.com/articles/s41593-018-0147-8), whose essential argument is that the PFC, the primary locus of ‘executive function’, is a meta-reinforcement learning system. Although it is not strictly speaking a review article, I include it because, in my view, it provides a compelling case for a unifying functional principle of a brain area that we consider responsible for much of intelligent behaviour in humans. 
 
 <h3 markdown='1' style="color:#515A5A">
 Prefrontal cortex as a meta-reinforcement learning system
@@ -70,7 +70,7 @@ Associated talk: https://www.youtube.com/watch?v=LnXgs73OUjE
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-Following Wang et al. (2018)(above), Dasgupta et al. (2019) make the strong but exciting claim that such meta-reinforcement learning is in fact capable of causal reasoning - an indication of the large potential consequences of the above work for AI systems. We will visit further implications of Wang et al. (2018) in the next section on the telencephalon{link}. 
+Following Wang et al. (2018)(above), [Dasgupta et al. (2019)](https://arxiv.org/abs/1901.08162v1) make the strong but exciting claim that such meta-reinforcement learning is in fact capable of causal reasoning - an indication of the large potential consequences of the above work for AI systems. We will visit further implications of Wang et al. (2018) in the next section on the telencephalon. 
 
 
 <p markdown='1' style="text-align:right">_Next post_: [The Telencephalon: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Telencephalon/)</p>
