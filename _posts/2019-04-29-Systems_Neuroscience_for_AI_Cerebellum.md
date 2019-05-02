@@ -41,9 +41,9 @@ https://doi.org/10.1016/j.neuron.2013.10.044 <br>
 <br>
 
 **Abstract**<br>
-Twenty-five years ago the first human functional neuroimaging studies of cognition discovered a surprising response in the cerebellum that could not be attributed
+_Twenty-five years ago the first human functional neuroimaging studies of cognition discovered a surprising response in the cerebellum that could not be attributed_
 <img align="right" width="340" height="300" src="../images/sysneuroai_images/buckner_pic.png">
- to motor demands. This controversial observation challenged the well-entrenched view that the cerebellum solely contributes to the planning and execution of movement. Recurring neuroimaging findings combined with key insights from anatomy and case studies of neurological patients motivated a reconsideration of the traditional model of cerebellar organization and function. The majority of the human cerebellum maps to cerebral association networks in an orderly manner that includes a mirroring of the prominent cerebral asymmetries for language and attention. These findings inspire exploration of the cerebellum’s contributions to a diverse array of functional domains and neuropsychiatric disorders.<br><br>
+ _to motor demands. This controversial observation challenged the well-entrenched view that the cerebellum solely contributes to the planning and execution of movement. Recurring neuroimaging findings combined with key insights from anatomy and case studies of neurological patients motivated a reconsideration of the traditional model of cerebellar organization and function. The majority of the human cerebellum maps to cerebral association networks in an orderly manner that includes a mirroring of the prominent cerebral asymmetries for language and attention. These findings inspire exploration of the cerebellum’s contributions to a diverse array of functional domains and neuropsychiatric disorders._ <br><br>
 
 
 </p>

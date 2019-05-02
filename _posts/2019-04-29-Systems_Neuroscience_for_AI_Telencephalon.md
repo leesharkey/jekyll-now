@@ -31,7 +31,7 @@ The hippocampus, thalamus, basal ganglia, and cerebral cortex form the bulk of w
 A point made most explicitly in Wang et al. (2018) and Behrens et al. (2018) (which we encountered in the [Reinforcement Learning]({{ site.baseurl }}/Systems_Neuroscience_for_AI_RL_with_BG_and_PFC/) and [Cortico-hippocampal interactions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cortico-hippocampal_interactions/) sections respectively)  was that the orbitofrontal cortex probably encodes the value- or task-structure of the state. But what if the agent encounters a new object, such as a hitherto unencountered stinging insect? The agent would do well to make use of this new information, which has not had time to be assimilated into the connections of the cortex, in its state-value function that it sent to the basal ganglia to determine actions. In other words, the agent should be able to apply newly learned information appropriately for the task-structure, the ‘task’ here being the avoidance of stings. Therefore we now return to the role of the hippocampus and study how it interacts with the orbitofrontal cortex. 
 
 <h3 markdown='1' style="color:#515A5A">
-Over the river, through the woods: cognitive maps in the hippocampus and orbitofrontal cortex
+[Over the river, through the woods: cognitive maps in the hippocampus and orbitofrontal cortex](https://doi.org/10.1038/nrn.2016.56)
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/river.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
@@ -41,7 +41,7 @@ https://doi.org/10.1038/nrn.2016.56 <br>
 <br>
 **Abstract**<br>
 
-The hippocampus and the orbitofrontal cortex (OFC) both have important roles in cognitive processes such as learning, memory and decision making. Nevertheless, research on the OFC and hippocampus has proceeded largely independently, and little consideration has been given to the importance of interactions between these structures. Here, evidence is reviewed that the hippocampus and OFC encode parallel, but interactive, cognitive 'maps' that capture complex relationships between cues, actions, outcomes and other features of the environment. A better understanding of the interactions between the OFC and hippocampus is important for understanding the neural bases of flexible, goal-directed decision making.<br><br>
+_The hippocampus and the orbitofrontal cortex (OFC) both have important roles in cognitive processes such as learning, memory and decision making. Nevertheless, research on the OFC and hippocampus has proceeded largely independently, and little consideration has been given to the importance of interactions between these structures. Here, evidence is reviewed that the hippocampus and OFC encode parallel, but interactive, cognitive 'maps' that capture complex relationships between cues, actions, outcomes and other features of the environment. A better understanding of the interactions between the OFC and hippocampus is important for understanding the neural bases of flexible, goal-directed decision making._ <br><br>
 
 </p>
 
@@ -53,7 +53,7 @@ The hippocampus and the orbitofrontal cortex (OFC) both have important roles in 
 We saw in the above review that the OFC does not directly project to the hippocampus. Yet we still need a way to choose the correct hippocampal neurons to stimulate in order to recall or imagine appropriate goal-relevant memories or concepts. Indeed, a human may have a new idea and then immediately proceed to build new ideas on top of it. It isn’t clear that such multi-step feats of working memory rely solely on the cortex or corticothalamic loops; it is likely that we build on newly conceived concepts that are temporarily stored in the hippocampus. This is the first of two gaps that I feel were left by the earlier Rolls (2018) review: it does not address how memories may be selected as part of an active, goal-directed process; it only accounts for how patterns of activity in the entorhinal cortex might get stored in the hippocampus and how parts of that pattern might be sufficient to activate the whole pattern (pattern completion) - the influence of goals is unclear. Clearly, goal-directed access of hippocampal representations need involve the prefrontal cortex, but which part? And how is such influence mediated? In the last two decades, a system involving a particular nucleus of the thalamus, the nucleus reuniens, has been gathering attention on account of its mediation of this process. 
 
 <h3 markdown='1' style="color:#515A5A">
-Role of the thalamic nucleus reuniens in mediating interactions between the hippocampus and medial prefrontal cortex during spatial working memory 
+[Role of the thalamic nucleus reuniens in mediating interactions between the hippocampus and medial prefrontal cortex during spatial working memory](https://doi.org/10.3389/fnsys.2015.00029)
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/griffin.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
@@ -63,7 +63,7 @@ https://doi.org/10.3389/fnsys.2015.00029 <br>
 <br>
 **Abstract**<br>
 
-Despite decades of research, the neural mechanisms of spatial working memory remain poorly understood. Although the dorsal hippocampus is known to be critical for memory-guided behavior, experimental evidence suggests that spatial working memory depends not only on the hippocampus itself, but also on the circuit comprised of the hippocampus and the medial prefrontal cortex (mPFC). Disruption of hippocampal-mPFC interactions may result in failed transfer of spatial and contextual information processed by the hippocampus to the circuitry in mPFC responsible for decision making and goal-directed behavior. Oscillatory synchrony between the hippocampus and mPFC has been shown to increase in tasks with high spatial working memory demand. However, the mechanisms and circuitry supporting hippocampal-mPFC interactions during these tasks is unknown. The midline thalamic nucleus reuniens (RE) is reciprocally connected to both the hippocampus and the mPFC and has been shown to be critical for a variety of working memory tasks. Therefore, it is likely that hippocampal-mPFC oscillatory synchrony is modulated by RE activity. This article will review the anatomical connections between the hippocampus, mPFC and RE along with the behavioral studies that have investigated the effects of RE disruption on working memory task performance. The article will conclude with suggestions for future directions aimed at identifying the specific role of the RE in regulating functional interactions between the hippocampus and the PFC and investigating the degree to which these interactions contribute to spatial working memory.<br><br>
+_Despite decades of research, the neural mechanisms of spatial working memory remain poorly understood. Although the dorsal hippocampus is known to be critical for memory-guided behavior, experimental evidence suggests that spatial working memory depends not only on the hippocampus itself, but also on the circuit comprised of the hippocampus and the medial prefrontal cortex (mPFC). Disruption of hippocampal-mPFC interactions may result in failed transfer of spatial and contextual information processed by the hippocampus to the circuitry in mPFC responsible for decision making and goal-directed behavior. Oscillatory synchrony between the hippocampus and mPFC has been shown to increase in tasks with high spatial working memory demand. However, the mechanisms and circuitry supporting hippocampal-mPFC interactions during these tasks is unknown. The midline thalamic nucleus reuniens (RE) is reciprocally connected to both the hippocampus and the mPFC and has been shown to be critical for a variety of working memory tasks. Therefore, it is likely that hippocampal-mPFC oscillatory synchrony is modulated by RE activity. This article will review the anatomical connections between the hippocampus, mPFC and RE along with the behavioral studies that have investigated the effects of RE disruption on working memory task performance. The article will conclude with suggestions for future directions aimed at identifying the specific role of the RE in regulating functional interactions between the hippocampus and the PFC and investigating the degree to which these interactions contribute to spatial working memory._ <br><br>
 </p>
 
 
@@ -71,12 +71,12 @@ Despite decades of research, the neural mechanisms of spatial working memory rem
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-Before considering even more global views of telencephalic function, I’ll make a passing algorithmic note on which hippocampal memories get recalled now that we’re a little more familiar with the relevant machinery. Recent experiments by [Mattar and Daw (2018)](https://doi.org/10.1038/s41593-018-0232-z) suggest that there are as few as two major desiderata of which memories get recalled: gain (the increase in discounted future reward expected from a policy change at the memorised state in question) and need (how likely that memorised state is to be visited again in future given its current policy). This echoes historical RL models as well as more recent deep RL models (such as [Schaul et al. 2015](https://arxiv.org/abs/1511.05952)), which use reward-dependent criteria for memory replay. The experiments of Matter and Daw suggests that model-based prioritisation of memories based on these two criteria in particular may prove a fruitful avenue of research for deep RL, which to my knowledge is yet to be explored. 
+Before considering even more global views of telencephalic function, I’ll make a passing algorithm-level note on which hippocampal memories get recalled, now that we’re a little more familiar with the relevant machinery. Recent experiments by [Mattar and Daw (2018)](https://doi.org/10.1038/s41593-018-0232-z) suggest that there are as few as two major desiderata of which memories get recalled: gain (the increase in discounted future reward expected from a policy change at the memorised state in question) and need (how likely that memorised state is to be visited again in future given its current policy). This echoes historical RL models as well as more recent deep RL models (such as [Schaul et al. 2015](https://arxiv.org/abs/1511.05952)), which use reward-dependent criteria for memory replay. The experiments of Matter and Daw suggests that model-based prioritisation of memories based on these two criteria in particular may prove a fruitful avenue of research for deep RL, which to my knowledge is yet to be explored. 
 
 As the brain-part tasked with coordinating novel patterns of activity throughout the cortex, it would be convenient for the hippocampus if repeated patterns could be generalised, compressed, and reused. If such a process could consolidate the pattern outside the hippocampus, it could then focus on learning new patterns that build ever more abstractly on the learned patterns. In the literature, this is the process of building conceptual ‘schema’. Before looking at what we know on the neurobiology of schema learning, the following review will take a more AI-oriented look at why schemas are important and put these slightly vague notions in a more computational frame. (Incidentally, it will also highlight the second gap in the perspective offered in Rolls (2018) taking issue with the idea that the hippocampus stores even similar experiences completely differently, thus implying that hippocampal representations may sometimes combine information from several temporally distinct but semantically related episodes.)
 
 <h3 markdown='1' style="color:#515A5A">
-What Learning Systems do Intelligent Agents Need? Complementary Learning Systems Theory Updated
+[What Learning Systems do Intelligent Agents Need? Complementary Learning Systems Theory Updated](https://doi.org/10.1016/j.tics.2016.05.004)
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/kumaran2016.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
@@ -86,9 +86,9 @@ https://doi.org/10.1016/j.tics.2016.05.004<br>
 <br>
 **Abstract**<br>
 
-We update complementary learning systems (CLS) theory, which holds that intelligent agents must possess two learning systems, instantiated in mammalians in neocortex and hippocampus. 
+_We update complementary learning systems (CLS) theory, which holds that intelligent agents must possess two learning systems, instantiated in mammalians in neocortex and hippocampus._ 
 <img align="right" width="350" height="300" src="../images/sysneuroai_images/kumaran_pic.png">
-The first gradually acquires structured knowledge representations while the second quickly learns the specifics of individual experiences. We broaden the role of replay of hippocampal memories in the theory, noting that replay allows goal-dependent weighting of experience statistics. We also address recent challenges to the theory and extend it by showing that recurrent activation of hippocampal traces can support some forms of generalization and that neocortical learning can be rapid for information that is consistent with known structure. Finally, we note the relevance of the theory to the design of artificial intelligent agents, highlighting connections between neuroscience and machine learning.<br><br>
+_The first gradually acquires structured knowledge representations while the second quickly learns the specifics of individual experiences. We broaden the role of replay of hippocampal memories in the theory, noting that replay allows goal-dependent weighting of experience statistics. We also address recent challenges to the theory and extend it by showing that recurrent activation of hippocampal traces can support some forms of generalization and that neocortical learning can be rapid for information that is consistent with known structure. Finally, we note the relevance of the theory to the design of artificial intelligent agents, highlighting connections between neuroscience and machine learning._ <br><br>
 
 </p>
 
@@ -98,7 +98,7 @@ The first gradually acquires structured knowledge representations while the seco
 Now that we have a better grasp of schema learning on a computational level, we would ideally look at the algorithms used to build them in the brain. But this is currently lacking. Hence, we next take a look at the biology of schemas, which might eventually help bridge the gap to the algorithmic level. 
 
 <h3 markdown='1' style="color:#515A5A">
-Neurobiology of Schemas and Schema-Mediated Memory
+[Neurobiology of Schemas and Schema-Mediated Memory](https://doi.org/10.1016/j.tics.2017.04.013)
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/gilboa.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
@@ -108,9 +108,9 @@ https://doi.org/10.1016/j.tics.2017.04.013 <br>
 <br>
 **Abstract**<br>
 
-Schemas are superordinate knowledge structures that reflect abstracted commonalities across multiple experiences, exerting powerful influences over how events are perceived, interpreted, and remembered. Activated schema templates modulate early perceptual
+_Schemas are superordinate knowledge structures that reflect abstracted commonalities across multiple experiences, exerting powerful influences over how events are perceived, interpreted, and remembered. Activated schema templates modulate early perceptual_
 <img align="right" width="350" height="500" src="../images/sysneuroai_images/gilboa_pic.png">
- processing, as they get populated with specific informational instances (schema instantiation). Instantiated schemas, in turn, can enhance or distort mnemonic processing from the outset (at encoding), impact offline memory transformation and accelerate neocortical integration. Recent studies demonstrate distinctive neurobiological processes underlying schema-related learning. Interactions between the ventromedial prefrontal cortex (vmPFC), hippocampus, angular gyrus (AG), and unimodal associative cortices support context-relevant schema instantiation and schema mnemonic effects. The vmPFC and hippocampus may compete (as suggested by some models) or synchronize (as suggested by others) to optimize schema-related learning depending on the specific operationalization of schema memory. This highlights the need for more precise definitions of memory schemas.<br><br>
+ _processing, as they get populated with specific informational instances (schema instantiation). Instantiated schemas, in turn, can enhance or distort mnemonic processing from the outset (at encoding), impact offline memory transformation and accelerate neocortical integration. Recent studies demonstrate distinctive neurobiological processes underlying schema-related learning. Interactions between the ventromedial prefrontal cortex (vmPFC), hippocampus, angular gyrus (AG), and unimodal associative cortices support context-relevant schema instantiation and schema mnemonic effects. The vmPFC and hippocampus may compete (as suggested by some models) or synchronize (as suggested by others) to optimize schema-related learning depending on the specific operationalization of schema memory. This highlights the need for more precise definitions of memory schemas._ <br><br>
 </p>
 
 <br>
@@ -140,20 +140,20 @@ We have partially localised functions such as imagination, working memory, atten
 
 All this brain, and what is it for? If you believe the ‘motor chauvinists’, the entire purpose of the brain is for movement (teleologically speaking, of course). Whether or not it’s true, we turn to how the brain might select actions. A gentle video introduction can be found [here](https://youtu.be/NcIWYCkKwVA), which focuses primarily on the role of the basal ganglia. For a more detailed look at how the brain areas that we have discussed in previous sections interact with the basal ganglia to inform action selection, we move to our next review. 
 <h3 markdown='1' style="color:#515A5A">
-An Integrated Model of Action Selection: Distinct Modes of Cortical Control of Striatal Decision Making. 
+[An Integrated Model of Action Selection: Distinct Modes of Cortical Control of Striatal Decision Making](https://doi.org/10.1146/annurev-psych-010418-102824)
 <img align="right" width="250" height="235" src="../images/sysneuroai_images/sharpe.png">
 </h3>
 <p markdown='1' style="color:#515A5A">
 Annual Review of Psychology, 70(1).<br>
 Sharpe, M. J., Stalnaker, T., Schuck, N. W., Killcross, S., Schoenbaum, G., & Niv, Y. (2018).<br>
-doi:10.1146/annurev-psych-010418-102824 <br>
+https://doi.org/10.1146/annurev-psych-010418-102824 <br>
 
 <br>
 **Abstract**<br>
 
-Making decisions in environments with few choice options is easy. We select the action that results in the most valued outcome. Making decisions in more complex 
+_Making decisions in environments with few choice options is easy. We select the action that results in the most valued outcome. Making decisions in more complex_ 
 <img align="right" width="400" height="300" src="../images/sysneuroai_images/sharpe_pic.png">
-environments, where the same action can produce different outcomes in different conditions, is much harder. In such circumstances, we propose that accurate action selection relies on top-down control from the prelimbic and orbitofrontal cortices over striatal activity through distinct thalamostriatal circuits. We suggest that the prelimbic cortex exerts direct influence over medium spiny neurons in the dorsomedial striatum to represent the state space relevant to the current environment. Conversely, the orbitofrontal cortex is argued to track a subject's position within that state space, likely through modulation of cholinergic interneurons. <br><br>
+_environments, where the same action can produce different outcomes in different conditions, is much harder. In such circumstances, we propose that accurate action selection relies on top-down control from the prelimbic and orbitofrontal cortices over striatal activity through distinct thalamostriatal circuits. We suggest that the prelimbic cortex exerts direct influence over medium spiny neurons in the dorsomedial striatum to represent the state space relevant to the current environment. Conversely, the orbitofrontal cortex is argued to track a subject's position within that state space, likely through modulation of cholinergic interneurons._ <br><br>
 </p>
 
 <p markdown='1' style="text-align:right">_Next post_: [The ‘Little Brain’, often forgotten: the Cerebellum]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cerebellum/)</p>
