@@ -111,7 +111,7 @@ How exactly does the system solve the problems described on the computational le
 
 <tr><td>
 <h4>The implementational level</h4>
-What is the physical instantiation of the computational algorithms and representations? How exactly does the hardware run the programs from the computational algorithmic level?
+What is the physical instantiation of the computational algorithms and representations? How exactly does the hardware run the programs from the algorithmic level?
 </td></tr>
 <tr bgcolor="#b6d7a8"><td>Neuroscience examples:
 <ul>
@@ -135,7 +135,7 @@ What is the physical instantiation of the computational algorithms and represent
 
 
 ## What this guide focuses on and what it ignores
-We currently do not have a good enough understanding of any single level of analysis in neuroscience to know with certainty what topics are safe to ignore. As such, this guide introduces neuroscience reviews from all three levels but places greater emphasis on the computational and algorithmic/representational levels than on the implementation level. This is not to say that excluded topics won’t be useful for building general intelligence - it just reflects my view of what systems-neuroscientific concepts AI researchers are likely to find useful in the short to medium term. This is consistent with the emphasis placed by Hassabis, who has [said](https://www.youtube.com/watch?v=Qgd3OK5DZWI) for a long time that many approaches to building general intelligence focus on parts of neuroscience that are too high- or low-level to be immediately useful for building intelligence. 
+We currently do not have a good enough understanding of any single level of analysis in neuroscience to know with certainty what topics are safe to ignore. As such, **this guide introduces neuroscience reviews from all three levels but places greater emphasis on the computational and algorithmic/representational levels than on the implementation level**. This is not to say that excluded topics won’t be useful for building general intelligence - it just reflects my view of what systems-neuroscientific concepts AI researchers are likely to find useful in the short to medium term. This is consistent with the emphasis placed by Hassabis, who has [said](https://www.youtube.com/watch?v=Qgd3OK5DZWI) for a long time that many approaches to building general intelligence focus on parts of neuroscience that are too high- or low-level to be immediately useful. 
 
 The guide therefore focuses on: 
 * The functions that particular brain areas are believed to perform and, where possible, how they are believed to perform them.
@@ -159,7 +159,7 @@ A further caveat to make explicit is that there is a mostly unintentional bias t
 
 The guide starts with a section that motivates the relevance of neuroscience to AI. 
 
-The subsequent section contains some reviews that give broad overviews of the systems likely to be at play in the brain. Such reviews represent the ‘computational’ level of analysis and aim to give an overview of what systems are likely to act in the brain; this should help contextualise more detailed reviews about particular brain parts and their functions.
+The subsequent section contains some reviews that give broad overviews of the systems likely to be at play in the brain. Such reviews emphasise the ‘computational’ level of analysis and aim to give an overview of what systems are likely to act in the brain; this should help contextualise more detailed reviews about particular brain parts and their functions.
 
 The main guide follows, which primarily tackles the algorithmic/representational level of analysis, though other levels are addressed too. I take a mixed approach to divide the literature in a way that makes sense: a combination of divisions by system and by anatomy. It sometimes makes sense to look at a particular part of the brain in isolation, then later look at how particular pairs of these components interact, then finally integrating the component into the systems in which it plays a role. Though a mostly sensible structure, no part of the brain (and certainly no system within it) works in isolation, hence some reviews will demand knowledge only touched on in later sections and in some unavoidable cases, will demand knowledge that is not included anywhere in the reading list; this is to be expected when only a small subset of the literature can be selected for inclusion. 
 

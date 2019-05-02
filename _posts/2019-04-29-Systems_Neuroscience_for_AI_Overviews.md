@@ -42,10 +42,7 @@ _The classical notion that the basal ganglia and the cerebellum are dedicated to
  <img align="right" width="400" height="250" src="../images/sysneuroai_images/doya2000_pic.png">
  _cognitive functions. From a computational viewpoint, it has been suggested that the cerebellum, the basal ganglia, and the cerebral cortex are specialized for different types of learning: namely, supervised learning, reinforcement learning and unsupervised learning, respectively. This idea of learning-oriented specialization is helpful in understanding the complementary roles of the basal ganglia and the cerebellum in motor control and cognitive functions._
 <br>
-
-_Associated talks: https://youtu.be/iJeuZ7Q2Tk0<br>
-(Note: This talk from_ Canonical Computation in Brains and Machines 2018 _gives an updated overview of Doya’s perspectives on large scale function of the brain. Highly recommended.)_
-
+Associated talks: https://youtu.be/iJeuZ7Q2Tk0<br>
 </p>
 
 <br>
@@ -53,7 +50,7 @@ _Associated talks: https://youtu.be/iJeuZ7Q2Tk0<br>
 <br>
 <br>
 
-Now familiar with the idea that different parts of the brain are performing different types of computation, the perspective that the brain computes a number of different specific cost functions should come as no surprise. While the specifics of how the brain represents, computes, and minimises these cost functions remain elusive, much of the progress that has been made in this regard in the years since Doya (2000) is discussed by Marblestone et al. (2016). Specifically, they discuss this progress with respect to recent, complementary advances in deep learning, but the jury is still out on exactly how similar the algorithms of deep learning are to the brain’s own learning mechanisms. Marblestone et al. (2016) is the only selected review that discusses inter alia biologically plausible learning rules, and includes discussion on the contentious issue of backpropagation in the brain. This neuroscientific claim is very much not consensus and it should be remarked that the view receives a considerably better reception in the world of machine learning than in the world of neuroscience ([according to Blake Richards](https://braininspired.co/podcast/9/), who works on the topic). Nevertheless, at very least, backprop seems like a appropriate source of inspiration in the search for the true learning rule(s), even if ends up being a scientific dead-end. 
+Now familiar with the idea that different parts of the brain are performing different types of computation, the perspective that the brain computes a number of different specific cost functions should come as no surprise. While the specifics of how the brain represents, computes, and minimises these cost functions remain elusive, much of the progress that has been made in this regard in the years since Doya (2000) is discussed by Marblestone et al. (2016). Specifically, they discuss this progress with respect to recent, complementary advances in deep learning, but the jury is still out on exactly how similar the algorithms of deep learning are to the brain’s own learning mechanisms. Marblestone et al. (2016) is the only selected review that discusses inter alia biologically plausible learning rules, and includes discussion on the contentious issue of backpropagation in the brain. This neuroscientific claim is very much not consensus and it should be remarked that the view receives a considerably better reception in the world of machine learning than in the world of neuroscience ([according to Blake Richards](https://braininspired.co/podcast/9/), who works on the topic). Nevertheless, at very least, backprop seems like an appropriate source of inspiration in the search for the true learning rule(s), even if ends up being a scientific dead-end. 
 
 
 <h3 markdown='1' style="color:#515A5A">
@@ -73,4 +70,11 @@ _Neuroscience has focused on the detailed implementation of computation, studyin
 <img align="right" width="400" height="360" src="../images/sysneuroai_images/marblestone_pic.png">
 _optimization of a cost function, often using simple and relatively uniform initial architectures. Two recent developments have emerged within machine learning that create an opportunity to connect these seemingly divergent perspectives. First, structured architectures are used, including dedicated systems for attention, recursion and various forms of short- and long-term memory storage. Second, cost functions and training procedures have become more complex and are varied across layers and over time. Here we think about the brain in terms of these ideas. We hypothesize that (1) the brain optimizes cost functions, (2) the cost functions are diverse and differ across brain locations and over development, and (3) optimization operates within a pre-structured architecture matched to the computational problems posed by behavior. In support of these hypotheses, we argue that a range of implementations of credit assignment through multiple layers of neurons are compatible with our current knowledge of neural circuitry, and that the brain's specialized systems can be interpreted as enabling efficient optimization for specific problem classes. Such a heterogeneously optimized system, enabled by a series of interacting cost functions, serves to make learning data-efficient and precisely targeted to the needs of the organism. We suggest directions by which neuroscience could seek to refine and test these hypotheses._
 </p>
+
+
+<br>
+<p markdown='1' style="text-align:center">---</p>
+<br>
+Now with the context provided by the 'Motivations' and 'Overviews' sections, we can turn our attention to perhaps the most versatile part of the brain, the cerebral cortex. 
+
 <p markdown='1' style="text-align:right">_Next post_: [The Cerebral Cortex: A Very Tangled Web]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cerebral_Cortex/)

@@ -25,7 +25,7 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-Reinforcement learning and biology have a long and fruitful history of co-inspiration. [Sutton and Barto (2018) Reinforcement Learning: An Introduction](http://incompleteideas.net/book/RLbook2018.pdf) provides a good overview of this history and a good introduction to the relevant biology for AI researchers. Chapter 15 “Neuroscience”. For a gentle primer on the basal ganglia, check out this short [video](https://www.youtube.com/watch?v=NcIWYCkKwVA).
+Reinforcement learning and biology have a long and fruitful history of co-inspiration. [Sutton and Barto (2018) Reinforcement Learning: An Introduction - Chapter 15 “Neuroscience”.](http://incompleteideas.net/book/RLbook2018.pdf) provides a good overview of this history and a good introduction to the relevant biology for AI researchers. For a gentle primer on the basal ganglia, check out this short [video](https://www.youtube.com/watch?v=NcIWYCkKwVA).
 
 Far from fizzling out, the virtuous cycle in the intersection of reinforcement learning in artificial and biological systems continues to yield insights that would have been difficult to reveal in isolation. There is far too much recent biologically-relevant deep reinforcement learning to review adequately here. Fortunately, Neftci & Averbeck (2019) present a satisfying review of the intersection between these topics, while looking more deeply at the biology than in Sutton and Barto. 
 

@@ -25,7 +25,7 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-It is commonplace to hear in some quarters that, nowadays, any alleged link between neuroscience and artificial intelligence is spurious. Informed accounts such as Hassabis et al. (2017) and this excellent post by Surya Ganguli at Stanford (both linked below) show that the link between neuroscience and artificial intelligence has always - and continues - to run deep. 
+It is common to hear in some quarters that, nowadays, an alleged link between neuroscience and artificial intelligence is spurious. Informed accounts such as Hassabis et al. (2017) and this excellent post by Surya Ganguli at Stanford (both linked below) show that the link between neuroscience and artificial intelligence has always - and continues - to run deep. 
 
 <h3 markdown='1' style="color:#515A5A">
 [Neuroscience-Inspired Artificial Intelligence](https://doi.org/10.1016/j.neuron.2017.06.011)
@@ -67,7 +67,7 @@ _No abstract available_
 <br>
 <p markdown='1' style="text-align:center">---</p>
 <br>
-Even though we do not currently have a complete functional picture of intelligence, one use studying the brain is to make a top-down attempt to break intelligence into component functions. First, we can study what we think are the prerequisite functions (“start-up software”) needed for general intelligence. We can then examine functions of general intelligence that build on the start-up software, such as model-building, understanding causality, or compositionality. This top-down approach is supported in the following review by Lake et al. (2015). Readers are particularly encouraged to read the full version and their responses in the Behavioral and Brain Sciences edition of the article (as opposed to the one on Arxiv) since the full version also includes lively responses from other prominent voices in the field that, while in agreement, tend to counterbalance Lake et al. with arguments for the bottom-up approach. Of particular mention for [our purposes]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Overviews/) are the responses by:
+Even though we do not currently have a complete functional picture of intelligence, one benefit of studying the brain is to enable a top-down attempt to break intelligence into component functions. First, we might study what we think are the prerequisite functions (“start-up software”) needed for general intelligence. We can then examine functions of general intelligence that build on the start-up software, such as world-model-building, understanding causality, or compositionality. This top-down approach is supported in the following review by Lake et al. (2015). Readers are particularly encouraged to read the the Behavioral and Brain Sciences version of the article (as opposed to the version on Arxiv) since it includes lively responses from other prominent voices in the field that, while in agreement, tend to counterbalance Lake et al. with arguments for the bottom-up approach. Of particular mention for [our purposes]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Overviews/) are the responses by:
 * Botvinick et al.: Building machines that learn and think for themselves
 * Marblestone et al.: Understand the cogs to understand cognition
 * Dileep George: What can the brain teach us about building artificial intelligence?
