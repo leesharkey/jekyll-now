@@ -2,7 +2,7 @@
 
 layout: post
 
-title: The Telencephalon&#58; Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system 
+title: The Forebrain&#58; Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system 
 
 ---
 
@@ -17,7 +17,7 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 * [The Hippocampus: A Less Tangled Web]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Hippocampus/)
 * [Cortico-hippocampal interactions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cortico-hippocampal_interactions/)
 * [Reinforcement Learning with the Basal Ganglia and prefrontal cortex]({{ site.baseurl }}/Systems_Neuroscience_for_AI_RL_with_BG_and_PFC/)
-* [The Telencephalon: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Telencephalon/) (This page)
+* [The Forebrain: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Forebrain/) (This page)
 * [The ‘Little Brain’, often forgotten: the Cerebellum]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cerebellum/)
 * [The Cerebello-basal ganglia-thalamo-cortical system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_CB_BG_Th_Ctx/)
 * [Conclusions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Conclusions/)
@@ -26,7 +26,7 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-The hippocampus, thalamus, basal ganglia, and cerebral cortex form the bulk of what is collectively called the telencephalon. Together they comprise a majority of the mass of the brain, at least in primates. Even though we’ve already looked at a number of components and subsystems, we will again need to tackle it piecewise. 
+The hippocampus, thalamus, basal ganglia, and cerebral cortex form the bulk of what is collectively called the forebrain. Together they comprise a majority of the mass of the brain, at least in primates. Even though we’ve already looked at a number of components and subsystems, we will again need to tackle it piecewise. 
 
 A point made most explicitly in Wang et al. (2018) and Behrens et al. (2018) (which we encountered in the [Reinforcement Learning]({{ site.baseurl }}/Systems_Neuroscience_for_AI_RL_with_BG_and_PFC/) and [Cortico-hippocampal interactions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cortico-hippocampal_interactions/) sections respectively)  was that the orbitofrontal cortex probably encodes the value- or task-structure of the state. But what if the agent encounters a new object, such as a hitherto-unencountered stinging insect? The agent would do well to make use of this new information (which has not had time to be consolidated deeply into the connections of the cortex) in its state-value function that it sent to the basal ganglia to determine actions. In other words, the agent should be able to apply newly learned information appropriately for the task-structure, the ‘task’ here being the avoidance of stings. Therefore we now return to the role of the hippocampus and study how it interacts with the orbitofrontal cortex. 
 
@@ -119,7 +119,7 @@ _Schemas are superordinate knowledge structures that reflect abstracted commonal
 
 Readers seeking further biological details on schema are pointed toward [Ghosh and Gilboa (2016)](https://doi.org/10.1016/j.neuropsychologia.2013.11.010) for detailed and historical accounts of memory schema. For an interesting, but far-from-consensus view on the role of episodic memory for long term temporal credit assignment in the brain, see [Lillicrap and Santoro (2019)](https://doi.org/10.1016/j.conb.2019.01.011); it takes aim at an algorithmic account of the interaction between the hippocampus and cortex and explores the relevance of backpropagation-through-time in this process. 
 
-DeepMind in particular is pushing hard along lines that are consistent with episodic memory consolidation and memory schema. Before we move away from the telencephalon, it’s worth exploring a few more of the architectures and machine learning methods that have been developed there that are linked to schemas, memory consolidation, episodic memory, and reinforcement learning.  
+DeepMind in particular is pushing hard along lines that are consistent with episodic memory consolidation and memory schema. Before we move away from the forebrain, it’s worth exploring a few more of the architectures and machine learning methods that have been developed there that are linked to schemas, memory consolidation, episodic memory, and reinforcement learning.  
 
 We have [already encountered]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Hippocampus/) the non-parametric memory systems of the episodic controller ([Blundell et al. 2016](https://arxiv.org/abs/1606.04460)) and the neural cache ([Grave et al. 2016](https://arxiv.org/abs/1612.04426))(and a more recent variant in [Rae et al. 2018](https://arxiv.org/abs/1803.10049)) when we looked at the hippocampus. Blundell et al. (2016) is in fact a reinforcement learning system that learns to take actions based on the episodes it has stored in memory. They explore in some detail on the benefits of episodic memory systems, such as the hippocampus, for RL agents. A similar architecture can be found in [Pritzel et al. (2017)](https://arxiv.org/abs/1703.01988), which rapidly assimilates new experiences, enabling much faster learning than most prior DRL agents. It does not learn when to write to memory; instead, it writes everything as fast-updating memory values and uses slow-changing keys and context-based lookup to learn how to access useful memory values for action selection. Arguably, this is similar to the PFC learning which memories to replay. 
 
@@ -131,7 +131,7 @@ Stepping back from RL architectures momentarily, it isn’t clear that any of th
 
 Finally, although we have seen that the hippocampus enables imagination of new experiences and concepts by coordinating cortical activity in novel patterns, we have not seen architectures that perform comparably effective imagination. One recent step toward this end can be found in [Buesing et al. (2018)](https://arxiv.org/abs/1802.03006), whose RL agent use a pre-learned state-space model, which they learn to query in order to evaluate the value of their actions before they take them - they plan to train the state-space model at the same time as the agent in future work. Other work examines how planning behaviour might emerge from networks trained without explicit architectural biases for planning ([Guez et al. 2019](https://arxiv.org/abs/1901.03559)). 
 
-We have partially localised functions such as imagination, working memory, attention, planning, memory consolidation, abstract concepts, and more to the telencephalon, but the AI-versed reader will be well aware that the works mentioned above only scratch the surface of AI research that aim to tackle these functions. The above brief exploration of such works - with particular focus on those from DeepMind - is intended only to illustrate the utility of organising our notions of these functions around the sole known example of general intelligence. 
+We have partially localised functions such as imagination, working memory, attention, planning, memory consolidation, abstract concepts, and more to the forebrain, but the AI-versed reader will be well aware that the works mentioned above only scratch the surface of AI research that aim to tackle these functions. The above brief exploration of such works - with particular focus on those from DeepMind - is intended only to illustrate the utility of organising our notions of these functions around the sole known example of general intelligence. 
 
 
 <br>

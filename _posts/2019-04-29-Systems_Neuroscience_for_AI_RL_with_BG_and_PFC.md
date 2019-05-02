@@ -17,7 +17,7 @@ _This post is part of a series "Systems Neuroscience for AI: An Introductory Gui
 * [The Hippocampus: A Less Tangled Web]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Hippocampus/)
 * [Cortico-hippocampal interactions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cortico-hippocampal_interactions/)
 * [Reinforcement Learning with the Basal Ganglia and prefrontal cortex]({{ site.baseurl }}/Systems_Neuroscience_for_AI_RL_with_BG_and_PFC/) (This page)
-* [The Telencephalon: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Telencephalon/)
+* [The Forebrain: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Forebrain/)
 * [The ‘Little Brain’, often forgotten: the Cerebellum]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Cerebellum/)
 * [The Cerebello-basal ganglia-thalamo-cortical system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_CB_BG_Th_Ctx/)
 * [Conclusions]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Conclusions/)
@@ -72,7 +72,7 @@ Associated talk: https://www.youtube.com/watch?v=LnXgs73OUjE
 <p markdown='1' style="text-align:center">---</p>
 <br>
 
-Following Wang et al. (2018)(above), [Dasgupta et al. (2019)](https://arxiv.org/abs/1901.08162v1) make the strong but exciting claim that agents with such meta-reinforcement learning is in fact capable of causal reasoning - an indication of the large potential consequences of the above work for AI systems. We will visit further implications of Wang et al. (2018) in the next section on the telencephalon. 
+Following Wang et al. (2018)(above), [Dasgupta et al. (2019)](https://arxiv.org/abs/1901.08162v1) make the strong but exciting claim that agents with such meta-reinforcement learning is in fact capable of causal reasoning - an indication of the large potential consequences of the above work for AI systems. We will visit further implications of Wang et al. (2018) in the next section on the forebrain. 
 
 
-<p markdown='1' style="text-align:right">_Next post_: [The Telencephalon: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Telencephalon/)</p>
+<p markdown='1' style="text-align:right">_Next post_: [The Forebrain: Or, How I Learned Concepts in the Cortico-thalamo-basal ganglia-hippocampal system]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Forebrain/)</p>
