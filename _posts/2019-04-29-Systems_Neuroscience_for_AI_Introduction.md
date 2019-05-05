@@ -175,6 +175,6 @@ Before the real content, a practical note: the depressing closedness of biology 
 
 Finally, I emphasise once again that this guided reading list cannot possibly include everything, and the vast majority of important literature had to be excluded. The reading list aims therefore only to serve as an exceedingly general overview, a springboard from which to jump deeper into the areas of neuroscience that each reader finds most exciting and relevant to their respective interests. So don’t be afraid to deviate from the list if you find more specialised reviews on topics that interest you! 
 
-_Acknowledgements: I'm grateful to Ethan Palmiere and Xander Nedergaard for recommendations of reviews articles and for reading earlier drafts of this guide, as well as to Abhi Banerjee, Ago Lajko, and Igor Krawczuk for their paper recommendations.
+_Acknowledgements: I'm grateful to Ethan Palmiere and Xander Nedergaard for recommendations of reviews articles and for reading earlier drafts of this guide, as well as to Abhi Banerjee, Ago Lajko, and Igor Krawczuk for their paper recommendations._
 
 <p markdown='1' style="text-align:right">_Next post_: [Motivation - Why should we pay attention to the brain for AI?]({{ site.baseurl }}/Systems_Neuroscience_for_AI_Motivation/)
